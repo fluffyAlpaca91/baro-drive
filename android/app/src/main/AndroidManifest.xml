@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature
+        android:name="android.hardware.type.automotive"
+        android:required="true" />
+
+    <!-- 권한은 코드가 실제로 쓰는 것만 둔다. 필요 없는 권한은 Pleos 심사 반려 사유다(Pleos UX 7.4). -->
+
+    <!-- 속도 PERF_VEHICLE_SPEED (data/signal/car/CarPropertySignals). AAOS 보호 수준 dangerous(위치 묶음)라 실행 중에 요청한다:
+         진짜 차 자료 출처면 PR-1에서 앱 실행마다 한 번(ui/SpeedPermissionRequest), 시연 패널은 진짜 차로 바꾸기 전에(demo/DemoPanel).
+         거절하면 속도는 null이고 속도가 필요한 항목은 꺼진다. -->
+    <uses-permission android:name="android.car.permission.CAR_SPEED" />
+    <!-- 기어 GEAR_SELECTION (data/signal/car/CarPropertySignals). normal. -->
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN" />
+    <!-- Pleos Vehicle 브레이크 페달 registerBrakePedalStatus, 앞바퀴 조향각 registerSteeringWheelAngle
+         (data/signal/car/PleosVehicleSignals). -->
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <!-- Pleos Vehicle 방향지시등 registerTurnSignalState (data/signal/car/PleosVehicleSignals). -->
+    <uses-permission android:name="pleos.car.permission.CAR_LIGHTS" />
+    <!-- Pleos NaviHelper 회전 안내 getTBTInfo(연결 직후 한 번), 진짜 차 CR-2의 즐겨찾기 getBookmarkInfo ·
+         최근 목적지 getRecentDestinationInfo (data/navi/car/CarNaviController). -->
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" />
+    <!-- Pleos NaviHelper 목적지 안내 requestRoute — 진짜 차 PR-1 [내비로 보내고 출발] (data/navi/car/CarNaviController). -->
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE_SEARCH" />
+    <!-- Pleos TextToSpeech 코치 음성(한국어, ON_DEVICE) (data/voice/PleosTtsCoachVoice). -->
+    <uses-permission android:name="pleos.car.permission.TTS_SERVICE" />
+
+    <!-- 권한이 아니라 패키지 공개 범위(API 30+): 플랫폼 TextToSpeech가 TTS 엔진을 찾게 한다
+         (data/voice/AndroidTtsCoachVoice — Pleos TTS를 못 쓸 때의 대신). -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".BaroApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BaroDrive">
+
+        <!-- Pleos: CCP 로터리 컨트롤러를 지원하지 않는다(<application>에 둔다). -->
+        <meta-data
+            android:name="com.hmg.rotary.ROTARY_SUPPORTED"
+            android:value="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- AAOS: 주행 중에도 쓰는 Activity(DO). 그래도 주행 규제는 따라야 한다(ui/DrivingGate). -->
+            <meta-data
+                android:name="distractionOptimized"
+                android:value="true" />
+        </activity>
+    </application>
+
+</manifest>

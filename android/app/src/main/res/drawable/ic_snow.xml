@@ -1,0 +1,13 @@
+<!-- 프로토타입 index.html 심볼 'i-snow' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M12,3 v18 M4.2,7.5 l15.6,9 M4.2,16.5 l15.6,-9 M9.6,4.2 L12,6 l2.4,-1.8 M9.6,19.8 L12,18 l2.4,1.8 M3.7,11 l2.9,0.8 l-0.4,3 M20.3,13 l-2.9,-0.8 l0.4,-3 M6.2,8.9 l0.4,3 l-2.9,0.8 M17.8,15.1 l-0.4,-3 l2.9,-0.8"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.9"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 연습 기록 (프로토타입 js/app/screens/history.js, 설계 4.2 ST-2) -->
+<resources>
+    <string name="screen_st_2">연습 기록</string>
+
+    <string name="st2_title">연습 기록</string>
+    <string name="st2_sub">지난 회차를 다시 열어 봐요</string>
+    <string name="st2_count_n">%1$s · 지금 %2$d회차</string>
+    <string name="st2_empty_title">아직 기록이 없어요</string>
+    <string name="st2_empty_body">연습을 마치면 회차마다 여기에 남아요.</string>
+    <string name="st2_go_practice">연습하러 가기</string>
+    <string name="st2_empty_filter">%1$s 기록이 아직 없어요</string>
+    <string name="st2_delete_title">이 회차 기록을 지울까요?</string>
+    <string name="st2_delete_body">%1$s 기록이 사라져요. 단계 진행은 그대로 남아요.</string>
+    <string name="st2_delete">지우기</string>
+    <string name="st2_delete_desc">%1$s 기록 지우기</string>
+</resources>

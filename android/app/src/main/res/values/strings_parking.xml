@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 주차 연습 (프로토타입 js/app/screens/parking-select.js · parking-virtual.js · parking-guide.js, js/sim/parking.js 이름·꿀팁, 설계 4.2 PK-1~PK-4) -->
+<resources>
+    <string name="screen_pk_1">주차 연습 고르기</string>
+    <string name="screen_pk_2">세워 두고 연습(가상 주차)</string>
+    <string name="screen_pk_3">실제 주차 안내</string>
+    <string name="screen_pk_4">주차 연습 마무리</string>
+
+    <!-- 종류·방향 이름 (sim/parking.js TYPES·SIDES·label·title) -->
+    <string name="pk_type_parallel">평행</string>
+    <string name="pk_type_back">후방(후진)</string>
+    <string name="pk_type_front">전방</string>
+    <string name="pk_side_left">왼쪽</string>
+    <string name="pk_side_right">오른쪽</string>
+    <string name="pk_label">%1$s · %2$s</string>
+    <string name="pk_title">%1$s · %2$s 칸</string>
+
+    <!-- 기준점 꿀팁 (표 A-6, sim/parking.js TIPS·WHEEL_TIP) -->
+    <string name="pk_tip_label">기준점 꿀팁</string>
+    <string name="pk_tip_label_now">기준점 꿀팁 · 지금이에요</string>
+    <string name="pk_tip_parallel_1">앞차 뒷범퍼 끝이 내 어깨와 나란히 오면 멈추세요.</string>
+    <string name="pk_tip_parallel_2">주차할 칸 반대쪽 사이드미러에 뒤차 앞부분이 다 보이면 핸들을 똑바로 푸세요.</string>
+    <string name="pk_tip_back_1">주차할 칸 다음 칸의 주차선이 내 어깨와 나란히 오면 멈추세요.</string>
+    <string name="pk_tip_back_2">양쪽 사이드미러에 주차선이 같은 간격으로 보이면 핸들을 똑바로 푸세요.</string>
+    <string name="pk_tip_front_1">주차할 쪽 사이드미러가 칸의 첫 번째 주차선을 지나면 핸들을 끝까지 돌리세요.</string>
+    <string name="pk_tip_front_2">앞 유리 창틀 너머로 옆차와 내 차가 나란해 보이면 핸들을 똑바로 푸세요.</string>
+    <string name="pk_tip_wheel">바퀴를 똑바로 두면 다음 출발이 편해요.</string>
+
+    <!-- 걸린 시간 (parking-guide.js·parking-virtual.js fmtSec) -->
+    <string name="pk_sec">%1$d초</string>
+    <string name="pk_min">%1$d분</string>
+    <string name="pk_min_sec">%1$d분 %2$d초</string>
+    <string name="pk_times">%1$d번</string>
+
+    <!-- 차종 (sim/vehicle.js MODELS) -->
+    <string name="pk_car_avante">아반떼</string>
+    <string name="pk_car_grandeur">그랜저</string>
+    <string name="pk_car_tucson">투산</string>
+
+    <!-- PK-1 주차 연습 고르기 (목업 s08a) -->
+    <string name="pk1_title">주차 연습</string>
+    <string name="pk1_sub_none">6가지 중 하나를 골라요</string>
+    <string name="pk1_sub_some">6가지 중 %1$d가지 해 봤어요</string>
+    <string name="pk1_question">어떤 주차를 해 볼까요?</string>
+    <string name="pk1_my_car">내 차: %1$s</string>
+    <string name="pk1_card_desc">%1$s 칸</string>
+    <string name="pk1_done_desc">세워 두고 연습 성공</string>
+    <string name="pk1_note">세워 두고 연습: 진짜 핸들과 브레이크로 화면 속 차를 움직여요.</string>
+    <string name="pk1_virtual">세워 두고 연습</string>
+    <string name="pk1_guide">실제 주차 안내</string>
+    <string name="pk1_no_steer">핸들 신호를 못 읽어 세워 두고 연습을 할 수 없어요</string>
+
+    <!-- PK-2 세워 두고 연습 (parking-virtual.js) -->
+    <string name="pk2_sub">진짜 핸들과 브레이크로 움직여요</string>
+    <string name="pk2_scene_desc">%1$s · 위에서 본 그림</string>
+    <string name="pk2_wheel_straight">앞바퀴 똑바로</string>
+    <string name="pk2_wheel_angle">앞바퀴 %1$s %2$d°</string>
+    <string name="pk2_hint_arm">브레이크를 밟았다 떼면 움직여요</string>
+    <string name="pk2_hint_go">브레이크를 떼면 천천히 움직여요</string>
+    <string name="pk2_gear_desc">가상 기어</string>
+    <string name="pk2_gear_d">"전진 "</string>
+    <string name="pk2_gear_r">"후진 "</string>
+    <string name="pk2_gear_d_desc">전진 D</string>
+    <string name="pk2_gear_r_desc">후진 R</string>
+    <string name="pk2_restart">처음부터</string>
+    <string name="pk2_stop">그만하기</string>
+    <string name="pk2_touch_car">옆차에 닿았어요</string>
+    <string name="pk2_touch_curb">연석에 닿았어요</string>
+    <string name="pk2_touch_body">붉게 표시한 곳에 닿았어요. 처음부터 다시 해 봐요.</string>
+    <string name="pk2_edge">그림 끝이라 더 갈 수 없어요</string>
+    <string name="pk2_done_title">주차 완료!</string>
+    <string name="pk2_row_sec">걸린 시간</string>
+    <string name="pk2_row_switches">앞뒤로 바꾼 횟수</string>
+    <string name="pk2_row_wheel">바퀴</string>
+    <string name="pk2_wheel_ok">똑바로 했어요</string>
+    <string name="pk2_wheel_bent">꺾여 있어요</string>
+    <string name="pk2_other">다른 주차</string>
+    <string name="pk2_again">다시 하기</string>
+
+    <!-- PK-3 실제 주차 안내 (목업 s08b, parking-guide.js) -->
+    <string name="pk3_sub">단계마다 한 문장씩 알려 줘요</string>
+    <string name="pk3_stop">그만하기</string>
+    <string name="pk3_now">지금 할 일</string>
+    <string name="pk3_did">다 했어요</string>
+    <string name="pk3_of">/ %1$d</string>
+    <string name="pk3_wait">기어를 D로 바꾸면 안내를 시작해요</string>
+    <string name="pk3_done_parked">결과를 정리하고 있어요</string>
+    <string name="pk3_done_moving">기어를 P로 바꾸면 결과를 보여 드려요</string>
+    <string name="pk3_last_head">"마지막 단계 · 기어 P, "</string>
+    <string name="pk3_last_bold">사이드브레이크 채우기</string>
+    <string name="pk3_last_tail">, 비상등 끄기</string>
+    <string name="pk3_gear_slow">저속</string>
+
+    <!-- PR-1 주차 변형 (parking-guide.js Baro.predriveVariant(6)) -->
+    <string name="pk_pr_sub">주차 연습 · %1$s · %2$d회차</string>
+    <string name="pk_pr_course_note">주차장에 도착하면 주차 안내를 시작해요</string>
+    <string name="pk_pr_start">주차 안내 시작</string>
+
+    <!-- PK-4 주차 연습 마무리 (parking-guide.js) -->
+    <string name="pk4_title">주차 연습 마무리</string>
+    <string name="pk4_sub_virtual">세워 두고 연습</string>
+    <string name="pk4_sub_no">%1$d회차</string>
+    <string name="pk4_head_virtual">%1$s · 세워 두고 연습</string>
+    <string name="pk4_head_done">%1$s 주차를 마쳤어요</string>
+    <string name="pk4_head_reached">%1$s 주차를 %2$d단계까지 했어요</string>
+    <string name="pk4_row_result">결과</string>
+    <string name="pk4_result_success">주차 완료</string>
+    <string name="pk4_result_stopped">그만했어요</string>
+    <string name="pk4_row_time">걸린 시간</string>
+    <string name="pk4_row_switch">앞뒤로 바꾼 횟수</string>
+    <string name="pk4_row_steps">단계</string>
+    <string name="pk4_steps">%1$d / %2$d</string>
+    <string name="pk4_row_slow">\'천천히\' 안내</string>
+    <string name="pk4_slow_none">없었어요</string>
+    <string name="pk4_row_wheel">바퀴</string>
+    <string name="pk4_wheel_straight">똑바로</string>
+    <string name="pk4_wheel_bent">꺾여 있었어요</string>
+    <string name="pk4_row_handbrake">사이드브레이크</string>
+    <string name="pk4_hb_on">채웠어요</string>
+    <string name="pk4_hb_off">안 채웠어요</string>
+    <string name="pk4_hb_asked">물어봤어요</string>
+    <string name="pk4_unknown">확인하지 못했어요</string>
+    <string name="pk4_other">다른 주차</string>
+
+    <!-- 리뷰 틀 조각 (review.js sections — PK-4·RV-6이 같이 씀) -->
+    <string name="pk_rv_home">홈으로</string>
+    <string name="pk_rv_close">닫기</string>
+    <string name="pk_rv_missing_title">이 회차 기록을 찾을 수 없어요</string>
+    <string name="pk_rv_missing_body">연습 기록은 최근 30회차까지 차 안에 둬요.</string>
+    <string name="pk_rv_course_save">이 코스 내 코스로 저장</string>
+    <string name="pk_rv_course_saved">내 코스에 있어요</string>
+    <string name="pk_rv_course_saved_toast">내 코스에 저장했어요</string>
+    <string name="pk_rv_course_error">코스를 저장하지 못했어요</string>
+    <string name="pk_rv_share">가족에게 요약 보내기</string>
+    <string name="pk_rv_share_sent">보냈어요 · %1$s</string>
+    <string name="pk_rv_share_queued">연결되면 보내요</string>
+    <string name="pk_rv_share_queued_toast">연결되면 보낼게요</string>
+    <string name="pk_rv_next">다음 과제 하나</string>
+    <string name="pk_rv_f2_title">급제동 %1$d번 · 기록에서 뺐어요</string>
+    <string name="pk_rv_f2_question">어떤 상황이었나요?</string>
+    <string name="pk_rv_f2_avoid">위험 피하기</string>
+    <string name="pk_rv_f2_mistake">내 실수</string>
+    <string name="pk_rv_f2_chosen">본인 확인: %1$s</string>
+    <string name="pk_rv_f2_change">바꾸기</string>
+    <string name="pk_rv_f2_unknown">급하게 브레이크를 밟았어요</string>
+    <string name="pk_rv_f2_head">"%1$dkm/h에서 "</string>
+    <string name="pk_rv_f2_dur">"%1$s초 만에 "</string>
+    <string name="pk_rv_f2_stop">정지</string>
+    <string name="pk_rv_f2_slow">%1$dkm/h까지 줄임</string>
+    <string name="pk_rv_no">%1$d회차</string>
+    <string name="pk_rv_sec">%1$d초</string>
+    <string name="pk_rv_min">%1$d분</string>
+    <string name="pk_rv_hour">%1$d시간</string>
+    <string name="pk_rv_hour_min">%1$d시간 %2$d분</string>
+    <string name="pk_rv_km">%1$skm</string>
+    <string name="pk_rv_road_rain">빗길</string>
+    <string name="pk_rv_road_snow">눈길</string>
+    <string name="pk_rv_road_severe">아주 나쁜 날</string>
+    <string name="pk_rv_day">%1$d월 %2$d일</string>
+    <string name="pk_rv_sep">" · "</string>
+</resources>

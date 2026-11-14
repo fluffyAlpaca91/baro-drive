@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 운전면허 연습 모드 (프로토타입 js/app/screens/license.js, 설계 4.2 LC-1·LC-2·RV-5) -->
+<resources>
+    <string name="screen_lc_1">운전면허 연습 모드 시작 체크</string>
+    <string name="screen_lc_2">연습면허 발급일</string>
+    <string name="screen_rv_5">운전면허 연습 돌아보기</string>
+
+    <!-- LC-1 시작 체크(목업 s09) -->
+    <string name="lc1_title">운전면허 연습 모드</string>
+    <string name="lc1_sub">연습면허로 시험장 주변 코스 달리기</string>
+    <string name="lc1_validity">연습면허 유효기간</string>
+    <string name="lc1_none">연습면허 발급일을 넣으면 유효기간(1년)을 알려 드려요</string>
+    <string name="lc1_add_date">발급일 넣기</string>
+    <string name="lc1_change_date">발급일 바꾸기</string>
+    <string name="lc1_expired">유효기간이 지났어요(%1$s)</string>
+    <string name="lc1_issued">%1$s 발급</string>
+    <string name="lc1_issued_until">%1$s 발급 · %2$s까지</string>
+    <string name="lc1_intro">도로에서 연습하려면 꼭 지켜야 해요. 직접 확인하고 체크해 주세요.</string>
+    <string name="lc1_seat_on">조수석에 동승자가 탔어요</string>
+    <string name="lc1_seat_on_sub">차가 확인했어요 · 비어 있으면 시작하지 않아요</string>
+    <string name="lc1_seat_off">조수석이 비어 있어요</string>
+    <string name="lc1_seat_off_sub">동승자가 타야 시작해요</string>
+    <string name="lc1_seat_unknown">조수석 신호를 못 읽어요</string>
+    <string name="lc1_seat_unknown_sub">이 차에서는 운전면허 연습 모드를 시작할 수 없어요</string>
+    <string name="lc1_check_companion">함께 탄 분은 면허를 받은 지 2년이 넘었고, 지금 면허정지가 아니에요</string>
+    <string name="lc1_check_sign">‘주행연습’ 표지를 붙였어요</string>
+    <string name="lc1_check_sign_sub">앞유리 오른쪽 아래, 뒷유리 가운데 위</string>
+    <string name="lc1_check_purpose">주행연습 목적으로만 운전해요</string>
+    <string name="lc1_check_purpose_sub">출퇴근·심부름 운전은 안 돼요</string>
+    <string name="lc1_note">앱은 면허를 확인하지 않아요. 코스는 실제 시험과 다를 수 있어요.</string>
+    <string name="lc1_expired_guide">유효기간이 지나면 도로에서 연습할 수 없어요</string>
+
+    <!-- LC-2 연습면허 발급일(시트) -->
+    <string name="lc2_title">연습면허 발급일</string>
+    <string name="lc2_sub">받은 날부터 1년 동안 도로에서 연습할 수 있어요</string>
+    <string name="lc2_save">저장</string>
+
+    <!-- RV-5 운전면허 연습 돌아보기 -->
+    <string name="rv5_title">운전면허 연습 돌아보기</string>
+    <string name="rv5_other">다른 코스 보기</string>
+    <string name="rv5_letter">%1$s 코스</string>
+    <string name="rv5_letter_done">%1$s 코스 달렸어요</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 디자인 시스템 컴포넌트 글 (프로토타입 js/app/components.js: COACH_NAMES · GEAR_LABEL · MODE_NAMES · 날짜 고르기, 설계 2.4). -->
+<resources>
+    <!-- 공용 버튼·접근성 이름 -->
+    <string name="ui_back">뒤로</string>
+    <string name="ui_close">닫기</string>
+    <string name="ui_cancel">취소</string>
+    <string name="ui_confirm">확인</string>
+
+    <!-- 기어 칩 (.gear: 글자 칸 + 설명) -->
+    <string name="gear_label_p">정차 중</string>
+    <string name="gear_label_d_moving">주행 중</string>
+    <string name="gear_label_d_stopped">멈춤</string>
+    <string name="gear_label_r">후진</string>
+    <string name="gear_label_n">중립</string>
+
+    <!-- 코치 (data/copy.js coaches: 이름 · 말투) -->
+    <string name="coach_sib">형제/자매</string>
+    <string name="coach_sib_tone">툴툴</string>
+    <string name="coach_mom">엄마</string>
+    <string name="coach_mom_tone">호들갑</string>
+    <string name="coach_dad">아빠/배우자</string>
+    <string name="coach_dad_tone">다정</string>
+    <string name="coach_listen">미리 듣기</string>
+
+    <!-- 모드 이름 (설계 0.2, data/copy.js modes[n].name) -->
+    <string name="mode_name_1">차량 감 익히기</string>
+    <string name="mode_name_2">동네 골목 다니기</string>
+    <string name="mode_name_3">큰 도로 달리기</string>
+    <string name="mode_name_4">고속도로 타 보기</string>
+    <string name="mode_name_5">자율 모드</string>
+    <string name="mode_name_6">주차 연습</string>
+    <string name="mode_name_7">언덕 주행</string>
+    <string name="mode_name_8">운전면허 연습 모드</string>
+    <!-- 모드 번호 칩 접근성 이름: "1 차량 감 익히기" -->
+    <string name="mode_chip_description">%1$d %2$s</string>
+
+    <!-- 날짜 고르기 (연·월·일 위아래) -->
+    <string name="date_unit_year">년</string>
+    <string name="date_unit_month">월</string>
+    <string name="date_unit_day">일</string>
+    <string name="date_name_year">연도</string>
+    <string name="date_name_month">월</string>
+    <string name="date_name_day">일</string>
+    <string name="date_up">%1$s 올리기</string>
+    <string name="date_down">%1$s 내리기</string>
+
+    <!-- 탐색 뼈대: 아직 만들지 않은 화면 자리 -->
+    <string name="placeholder_body">아직 만들지 않은 화면이에요. 설계 4.2 명세와 프로토타입대로 채울 자리예요.</string>
+    <string name="placeholder_links">이 화면에서 가는 곳</string>
+    <string name="screen_kind_park">정차 화면</string>
+    <string name="screen_kind_moving">움직이는 중 화면</string>
+    <string name="screen_kind_sheet">시트</string>
+    <string name="screen_kind_cover">주행 덮개 화면</string>
+</resources>

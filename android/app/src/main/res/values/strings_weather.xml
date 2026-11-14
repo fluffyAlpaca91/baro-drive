@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 날씨 (프로토타입 js/app/screens/weather.js, 설계 4.2 PR-1 날씨 줄·5.6) -->
+<resources>
+    <string name="screen_pr_1_severe">아주 나쁜 날</string>
+
+    <!-- PR-1 날씨 줄 칩 -->
+    <string name="weather_snow">오늘 눈 와요</string>
+    <string name="weather_severe_chip">아주 나쁜 날 ▾</string>
+    <string name="weather_rain">오늘 비 와요</string>
+
+    <!-- 아주 나쁜 날 시트 -->
+    <string name="weather_severe_title">아주 나쁜 날인가요?</string>
+    <string name="weather_severe_sub">고르면 제한속도 기준을 절반(50%)으로 낮춰요</string>
+</resources>

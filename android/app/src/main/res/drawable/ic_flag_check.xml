@@ -1,0 +1,19 @@
+<!-- 프로토타입 index.html 심볼 'i-flag-check' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). 원본의 mask(mk-flag-check)는 체크 모양을 even-odd 구멍으로 바꿔 옮겼다. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M9,43 V5"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4.4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M9,6.5 h23 l-4.5,7 l4.5,7 H9 z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M24.5,35 a10.5,10.5 0 1,0 21,0 a10.5,10.5 0 1,0 -21,0 Z M28.515,36.785 L31.915,40.185 A2.1,2.1 0 0,0 34.952,40.115 L41.152,33.315 A2.1,2.1 0 0,0 38.048,30.485 L33.33,35.66 L31.485,33.815 A2.1,2.1 0 0,0 28.515,36.785 Z"
+        android:fillColor="#FF000000"
+        android:fillType="evenOdd" />
+</vector>

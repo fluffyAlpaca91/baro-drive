@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 홈 (프로토타입 js/app/screens/home.js, 설계 4.2 HM-1). 모드 이름은 strings_ui.xml, 모드 카드 부제·단계 막대 글은 모델 Mode -->
+<resources>
+    <string name="screen_hm_1">홈</string>
+
+    <!-- 머리줄 -->
+    <string name="home_coach_desc">코치 고르기 · 지금 %1$s</string>
+    <string name="home_feedback">음성 피드백 설정</string>
+    <string name="home_settings">설정</string>
+
+    <!-- 진행 카드 -->
+    <string name="home_tag_now">지금</string>
+    <string name="home_stage_title">%1$d단계 · %2$s</string>
+    <string name="home_prog_head">"과제를 80% 이상 해낸 회차 "</string>
+    <string name="home_prog_k">%1$d / 2</string>
+    <string name="home_tail_one_more">한 번만 더 하면 통과예요</string>
+    <string name="home_tail_all">두 번 해내면 모든 단계를 마쳐요</string>
+    <string name="home_tail_next">두 번 해내면 다음 단계가 열려요</string>
+    <string name="home_continue">이어서 연습하기</string>
+    <string name="home_stepper_desc">%1$d단계 · 통과 회차 %2$d / 2</string>
+    <string name="home_stepper_done_desc">4단계까지 모두 마쳤어요</string>
+    <string name="home_tag_grad">졸업</string>
+    <string name="home_grad_title">4단계까지 마쳤어요</string>
+    <string name="home_grad_body">단계 연습은 언제든 다시 할 수 있어요.</string>
+    <string name="home_grad_summary">연습 기록 요약 보기</string>
+    <string name="home_grad_free">자율 모드로 달리기</string>
+
+    <!-- 알림 줄 -->
+    <string name="home_alert_f2">확인 안 한 급제동 %1$d건</string>
+    <string name="home_alert_share">보내지 못한 요약 %1$d건 · 연결되면 보내요</string>
+
+    <!-- 모드 카드 -->
+    <string name="home_sec_stages">단계 연습</string>
+    <string name="home_sec_stages_sub">잘하면 다음 단계가 열려요</string>
+    <string name="home_sec_free">따로 고르는 모드</string>
+    <string name="home_sec_free_sub">언제든 할 수 있어요</string>
+    <string name="home_card_now">%1$s · 지금 단계</string>
+    <string name="home_card_passed">통과</string>
+    <string name="home_card_locked">%1$d단계를 통과하면 열려요</string>
+    <string name="home_card_expired">유효기간이 지났어요</string>
+    <string name="home_history">연습 기록 보기</string>
+</resources>

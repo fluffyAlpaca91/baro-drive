@@ -1,0 +1,25 @@
+<!-- 프로토타입 index.html 심볼 'i-temp' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M17,9 a5,5 0 0,1 10,0 v19.3 a9.5,9.5 0 1,1 -10,0 z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M17,36.4 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M22,36 V17"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M33,10 h7 M33,17 h7 M33,24 h5"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round" />
+</vector>

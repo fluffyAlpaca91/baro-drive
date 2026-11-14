@@ -1,0 +1,17 @@
+<!-- 프로토타입 index.html 심볼 'i-route' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). 원본의 점선(stroke-dasharray 0.1 8.4, 둥근 끝)은 같은 자리의 점(반지름 2.2)으로 옮겼다. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M8.8,32.45 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z M9.454,24.0456 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z M16.3544,20 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z M24.8544,20 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z M32.7896,17.9095 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z M34.8,9.9411 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M5.5,38 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M37,2.5 a7,7 0 0,1 7,7 c0,5.2 -7,11 -7,11 s-7,-5.8 -7,-11 a7,7 0 0,1 7,-7 z m0,4.5 a2.5,2.5 0 1,0 0,5 a2.5,2.5 0 1,0 0,-5 z"
+        android:fillColor="#FF000000"
+        android:fillType="evenOdd" />
+</vector>

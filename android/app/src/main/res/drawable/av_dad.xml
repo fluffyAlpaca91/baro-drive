@@ -1,0 +1,61 @@
+<!-- 프로토타입 index.html 심볼 'av-dad' (설계 2.4 아이콘·캐릭터). 색이 정해진 그림이라 tint 없이 그린다(Image). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:pathData="M0,60 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0 Z"
+        android:fillColor="#FFBFEDE4" />
+    <path
+        android:pathData="M18,122 c4,-23 20,-33 42,-33 s38,10 42,33 z"
+        android:fillColor="#FF2E7D72" />
+    <path
+        android:pathData="M47,90 l13,14 l13,-14 z"
+        android:fillColor="#FFF4F6F8" />
+    <path
+        android:pathData="M58,77 H62 A6,6 0 0,1 68,83 V85 A6,6 0 0,1 62,91 H58 A6,6 0 0,1 52,85 V83 A6,6 0 0,1 58,77 Z"
+        android:fillColor="#FFF3C9A6" />
+    <path
+        android:pathData="M20,62 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 Z"
+        android:fillColor="#FFF3C9A6" />
+    <path
+        android:pathData="M86,62 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 Z"
+        android:fillColor="#FFF3C9A6" />
+    <path
+        android:pathData="M27,60 a33,35 0 1,0 66,0 a33,35 0 1,0 -66,0 Z"
+        android:fillColor="#FFFFDCBE" />
+    <path
+        android:pathData="M26,57 c-2,-24 14,-36 34,-36 s36,11 34,34 c-6,-9 -15,-14 -25,-14 c-5,6 -13,9 -22,9 c-8,0 -15,2 -21,7 z"
+        android:fillColor="#FF2D2A32" />
+    <path
+        android:pathData="M36,63 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0 Z"
+        android:strokeColor="#FF2D2A32"
+        android:strokeWidth="3" />
+    <path
+        android:pathData="M64,63 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0 Z"
+        android:strokeColor="#FF2D2A32"
+        android:strokeWidth="3" />
+    <path
+        android:pathData="M56,63 h8"
+        android:strokeColor="#FF2D2A32"
+        android:strokeWidth="3" />
+    <path
+        android:pathData="M41,64.5 q5,-5.5 10,0 M69,64.5 q5,-5.5 10,0"
+        android:strokeColor="#FF2D2A32"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M30,78 a6,3.5 0 1,0 12,0 a6,3.5 0 1,0 -12,0 Z"
+        android:fillColor="#FFFF9E9E"
+        android:fillAlpha="0.6" />
+    <path
+        android:pathData="M78,78 a6,3.5 0 1,0 12,0 a6,3.5 0 1,0 -12,0 Z"
+        android:fillColor="#FFFF9E9E"
+        android:fillAlpha="0.6" />
+    <path
+        android:pathData="M50,81 q10,9 20,0"
+        android:strokeColor="#FF7A3B2E"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round" />
+</vector>

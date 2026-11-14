@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 연습 시작 전 (프로토타입 js/app/screens/predrive.js + weather.js 날씨 줄 + demo.js 조수석 질문, 설계 4.2 PR-1) -->
+<resources>
+    <string name="screen_pr_1">연습 시작 전</string>
+
+    <string name="pr_title">연습 시작 전</string>
+
+    <!-- 오늘 과제 -->
+    <string name="pr_tasks_title">오늘 과제 %1$d개</string>
+    <string name="pr_listen">다시 듣기</string>
+    <string name="pr_listen_toast">코치가 오늘 과제 %1$d개를 읽어 줘요</string>
+
+    <!-- 출발 전 점검 -->
+    <string name="pr_checks_title">출발 전 점검</string>
+    <string name="pr_belt">운전석 벨트</string>
+    <string name="pr_belt_unknown">벨트 확인 못 함</string>
+    <string name="pr_belt_on">맸어요</string>
+    <string name="pr_belt_off">아직 안 맸어요</string>
+    <string name="pr_hb">사이드브레이크</string>
+    <string name="pr_hb_confirmed">풀었어요</string>
+    <string name="pr_hb_ask">풀었나요?</string>
+    <string name="pr_hb_on">채워져 있어요 · 출발 전에 풀어요</string>
+    <string name="pr_hb_off">풀려 있어요</string>
+    <string name="pr_hb_button">풀었어요</string>
+    <string name="pr_mirror">사이드미러</string>
+    <string name="pr_mirror_sub">내 차 옆면이 조금 보이게 맞췄어요</string>
+
+    <!-- 조수석 가족 -->
+    <string name="pr_passenger_title">조수석 가족</string>
+    <string name="pr_license_passenger">동승자</string>
+    <string name="pr_pass_unknown">확인할 수 없어요</string>
+    <string name="pr_pass_unknown_sub">조수석 착석 신호를 못 읽어요</string>
+    <string name="pr_pass_aboard">탑승했어요</string>
+    <string name="pr_pass_pending">출발 전에 코치가 말해요</string>
+    <string name="pr_pass_said">코치가 역할을 알려 드렸어요</string>
+    <string name="pr_pass_quiet">동승자 안내는 하지 않아요</string>
+    <string name="pr_pass_empty">비어 있어요</string>
+    <string name="pr_pass_empty_sub">가족이 타면 코치가 역할을 알려 줘요</string>
+    <string name="pr_l2">3·4단계는 가족이 옆에 타면 더 좋아요</string>
+    <string name="pr_quote">“%1$s”</string>
+
+    <!-- 조수석 질문(착석 신호를 못 읽을 때, demo.js) -->
+    <string name="pr_ask_title">조수석에 누가 탔나요?</string>
+    <string name="pr_ask_sub">조수석 착석 신호를 못 읽어 직접 여쭤봐요.</string>
+    <string name="pr_ask_aboard">탔어요</string>
+    <string name="pr_ask_alone">혼자예요</string>
+    <string name="pr_ask_again">다시 고르기</string>
+    <string name="pr_ans_aboard">가족이 탔어요</string>
+    <string name="pr_ans_alone">혼자 타요</string>
+    <string name="pr_ans_alone_sub">혼자 연습해요</string>
+
+
+    <!-- 코스 -->
+    <string name="pr_course_change">코스 바꾸기</string>
+    <string name="pr_course_kind_course">연습 코스</string>
+    <string name="pr_course_kind_mine">내 코스</string>
+    <string name="pr_course_kind_dest">목적지</string>
+    <string name="pr_course_head">%1$s · %2$s</string>
+    <string name="pr_course_km">%1$.1fkm</string>
+    <string name="pr_course_min">%1$d분</string>
+    <string name="pr_course_none">목적지를 내비에서 직접 골라요</string>
+    <string name="pr_course_none_sub">고른 곳까지 연습해요 · 회전 안내는 내비 경로가 있을 때만</string>
+
+    <!-- 하단 주요 버튼 -->
+    <string name="pr_send">내비로 보내고 출발</string>
+    <string name="pr_sent">기어를 D로 바꾸면 시작해요</string>
+    <string name="pr_sent_route">내비에 경로를 넣었어요</string>
+    <string name="pr_pick">내비에서 목적지 고르기</string>
+    <string name="pr_pick_toast">내비에서 목적지를 골라 주세요</string>
+    <string name="pr_send_fail">내비로 보내지 못했어요 · 코스를 다시 골라 주세요</string>
+</resources>

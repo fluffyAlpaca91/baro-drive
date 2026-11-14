@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 언덕 주행 (프로토타입 js/app/screens/hill.js, 설계 4.2 HL-1·HL-2·RV-6). 단계 글·상황 글은 엔진 콘텐츠 hill.json에 있다. -->
+<resources>
+    <string name="screen_hl_1">언덕 주행</string>
+    <string name="screen_hl_2">언덕 주차</string>
+    <string name="screen_rv_6">언덕 주행 돌아보기</string>
+
+    <!-- HL-1·HL-2 공통 -->
+    <string name="hl_title">언덕 주행</string>
+    <string name="hl_stop">그만하기</string>
+    <string name="hl_stop_hint">멈춘 뒤에 그만할 수 있어요</string>
+    <string name="hl_still_hint">멈춘 뒤에 바꿀 수 있어요</string>
+    <string name="hl_mute_off_desc">코치 소리 끄기</string>
+    <string name="hl_mute_on_desc">코치 소리 켜기</string>
+    <string name="hl_mute_on_toast">코치 소리를 껐어요 · 안전 항목은 계속 말해요</string>
+    <string name="hl_mute_off_toast">코치 소리를 켰어요</string>
+    <string name="hl_did">했어요</string>
+    <string name="hl_gear_moving">주행 중</string>
+    <string name="hl_gear_stopped">멈춤</string>
+
+    <!-- HL-1 (목업 s13a) -->
+    <string name="hl_no_step">%1$d단계 · 지금 할 일</string>
+    <string name="hl_no_done">%1$s · 끝</string>
+    <string name="hl_sig_done">다른 연습은 멈췄을 때 위 칩으로 골라요</string>
+    <string name="hl_sig_down_unbound">내리막이 끝나면 [했어요]를 눌러요</string>
+    <string name="hl_sig_steer_off">핸들 각도를 못 읽어요 · 돌렸으면 [했어요]를 눌러요</string>
+    <string name="hl_count_unit">번</string>
+    <string name="hl_count_label">브레이크 나눠 밟기</string>
+    <string name="hl_pedal_brake">브레이크</string>
+    <string name="hl_pedal_go">엑셀 살살</string>
+    <string name="hl_strip_step">%1$d %2$s</string>
+
+    <!-- HL-2 (목업 s13b) -->
+    <string name="hl_hp_of">/ %1$d</string>
+    <string name="hl_hp_curb">연석</string>
+    <string name="hl_hp_edge">길 가장자리</string>
+    <string name="hl_hp_why_none">상황을 고르면 앞바퀴 방향을 알려 드려요</string>
+    <string name="hl_hp_next">다음 · 기어를 P로 바꾸고\n사이드브레이크를 꼭 채우세요.</string>
+    <string name="hl_hp_next_done">사이드브레이크를 채웠어요</string>
+    <string name="hl_wheel_side">앞바퀴 %1$s</string>
+    <string name="hl_wheel_straight">앞바퀴 똑바로</string>
+    <string name="hl_wheel_unknown">앞바퀴 방향을 확인하지 못했어요</string>
+    <string name="hl_wheel_result_ok">%1$s · 방향이 맞아요</string>
+    <string name="hl_wheel_result_wrong">%1$s · %2$s이 맞아요</string>
+    <string name="hl_wheel_steer_off">핸들 각도를 못 읽어요</string>
+    <string name="hl_wheel_turn">%1$s · %2$s으로 돌려요</string>
+    <string name="hl_wheel_now">지금 앞바퀴 %1$s · %2$s</string>
+
+    <!-- RV-6 언덕 주행 돌아보기 -->
+    <string name="hl_rv_title">언덕 주행 돌아보기</string>
+    <string name="hl_rv_again">다시 하기</string>
+    <string name="hl_rv_up">오르막 출발</string>
+    <string name="hl_rv_down">내리막 감속</string>
+    <string name="hl_rv_park">언덕 주차</string>
+    <string name="hl_rv_none">이번엔 하지 않았어요</string>
+    <string name="hl_rv_up_text">%1$d번 · %2$s</string>
+    <string name="hl_rv_rollbacks">뒤로 밀림 %1$d번</string>
+    <string name="hl_rv_down_text">브레이크 나눠 밟기 %1$d번 · 계속 밟음 %2$d번</string>
+    <string name="hl_rv_park_default">언덕 주차</string>
+    <string name="hl_rv_wheel_unknown">앞바퀴 방향 확인 못 함</string>
+    <string name="hl_rv_wheel_ok">%1$s 맞음</string>
+    <string name="hl_rv_wheel_wrong">%1$s(%2$s이 맞아요)</string>
+    <string name="hl_rv_hb_on">사이드브레이크 채움</string>
+    <string name="hl_rv_hb_off">사이드브레이크 안 채움</string>
+    <string name="hl_rv_hb_unknown">사이드브레이크 확인 못 함</string>
+    <string name="hl_rv_mode_short">언덕</string>
+
+    <!-- PR-1 언덕 변형 맨 위 안전 카드 (hill.js Baro.predriveVariant(7)) -->
+    <string name="hl_pr_title">언덕 연습 전에</string>
+    <string name="hl_pr_listen">다시 듣기</string>
+</resources>

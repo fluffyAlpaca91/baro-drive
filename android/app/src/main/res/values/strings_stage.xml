@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 단계 통과·졸업 (프로토타입 js/app/screens/stage.js, 설계 4.2 RV-2·RV-3). 제목·다음 단계·해 볼 것·말하는 양 글은 엔진 StagePass가 만든다 -->
+<resources>
+    <string name="screen_rv_2">단계 통과</string>
+    <string name="screen_rv_3">졸업 · 연습 기록 요약</string>
+
+    <string name="st_home">홈으로</string>
+    <string name="st_medal_desc">%1$s 메달</string>
+    <string name="st_grad_medal">졸업 메달</string>
+
+    <!-- RV-3 -->
+    <string name="st_grad_title">4단계까지 마쳤어요</string>
+    <string name="st_summary_title">연습 기록 요약</string>
+    <string name="st_grad_date">졸업 %1$s</string>
+    <string name="st_not_yet">4단계까지 마치면 졸업이에요</string>
+    <string name="st_stat_sessions">총 회차</string>
+    <string name="st_stat_time">총 시간</string>
+    <string name="st_stat_dist">총 거리</string>
+    <string name="st_sessions_value">%1$d회</string>
+    <string name="st_stage_row">%1$d단계 · %2$s</string>
+    <string name="st_weather_row">날씨 나쁜 날</string>
+    <string name="st_partial">시간·거리·날씨는 차 안에 남은 최근 30회차 기록으로 셌어요</string>
+    <string name="st_k4_title">첫 회차 → 마지막 회차</string>
+    <string name="st_k4_none">비교할 첫 회차 기록이 없어요</string>
+    <string name="st_free">자율 모드로 달리기</string>
+</resources>

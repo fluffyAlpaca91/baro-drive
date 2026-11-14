@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 자율 모드 (프로토타입 js/app/screens/autonomous.js, 설계 4.2 RV-4) + RV-4·RV-5가 같이 쓰는 리뷰 구역(review.js sections) -->
+<resources>
+    <string name="screen_rv_4">자율 모드 도착·점수</string>
+
+    <!-- RV-4 자율 모드 도착·점수(목업 s07) -->
+    <string name="au_title_missing">안전운전 점수</string>
+    <string name="au_score_label">안전운전 점수</string>
+    <string name="au_score_of">/ 100점</string>
+    <string name="au_score_desc">안전운전 점수 %1$d점</string>
+    <string name="au_deductions">어디서 깎였나요</string>
+    <string name="au_to_my">내 음성 피드백 설정</string>
+
+    <!-- PR-1 자율 변형 맨 위 카드 -->
+    <string name="au_top_preset">내 음성 피드백 설정</string>
+
+    <!-- 리뷰 구역(review.js): 급제동 본인 확인 · 하단 · 기록 없음 -->
+    <string name="au_rv_f2_title">급제동 %1$d번 · 기록에서 뺐어요</string>
+    <string name="au_rv_f2_question">어떤 상황이었나요?</string>
+    <string name="au_rv_f2_avoid">위험 피하기</string>
+    <string name="au_rv_f2_mistake">내 실수</string>
+    <string name="au_rv_f2_done">본인 확인: %1$s</string>
+    <string name="au_rv_f2_change">바꾸기</string>
+    <string name="au_rv_home">홈으로</string>
+    <string name="au_rv_good">잘한 것</string>
+    <string name="au_rv_bad">아쉬운 것</string>
+    <string name="au_rv_no_bad">이번엔 아쉬운 것이 없어요.</string>
+    <string name="au_rv_next">다음 과제 하나</string>
+    <string name="au_rv_k4">첫 회차와 비교</string>
+    <string name="au_rv_k4_first">첫 기록이에요. 다음부터 비교해 드려요.</string>
+    <string name="au_rv_missing_title">이 회차 기록을 찾을 수 없어요</string>
+    <string name="au_rv_missing_body">연습 기록은 최근 30회차까지 차 안에 둬요.</string>
+</resources>

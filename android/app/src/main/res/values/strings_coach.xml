@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 코치 (프로토타입 js/app/screens/coach.js, 설계 4.2 CO-1·CO-2). 코치 이름·말투는 strings_ui.xml, 호칭 칩 글은 모델 HonorificType.label -->
+<resources>
+    <string name="screen_co_1">코치 고르기</string>
+    <string name="screen_co_2">호칭 정하기</string>
+
+    <!-- CO-1 코치 고르기 (목업 s02) -->
+    <string name="coach_title">코치 고르기</string>
+    <string name="coach_sub">캐릭터마다 말투와 목소리가 달라요</string>
+    <string name="coach_ask">누구 말투로 들을까요?</string>
+    <string name="coach_ask_hint">예: 깜빡이를 늦게 켰을 때 · 언제든 바꿀 수 있어요</string>
+    <string name="coach_hon_row_prefix">"부르는 말 · "</string>
+    <string name="coach_hon_row_sub">코치 문장 속에서 나를 부르는 말이에요</string>
+    <string name="coach_hon_row_desc">부르는 말 바꾸기</string>
+    <string name="coach_note">코치가 달라도 알려 주는 내용과 때는 같아요. 말투와 목소리만 달라요.</string>
+    <string name="coach_preview_quoted">\"%1$s\"</string>
+
+    <!-- 그 코치가 언제 부르는지 (coach.js NOTE, 설계 6.6.1) -->
+    <string name="coach_hon_note_sib">형제/자매 코치는 부르는 말을 쓰지 않아요.</string>
+    <string name="coach_hon_note_mom">엄마 코치는 칭찬할 때 자주 불러요.</string>
+    <string name="coach_hon_note_dad">아빠/배우자 코치는 단계를 다 마쳤을 때처럼 특별한 때만 불러요.</string>
+
+    <!-- CO-2 호칭 정하기 시트 · ON-5 안 호칭 고르기 -->
+    <string name="hon_sheet_title">코치가 나를 어떻게 부를까요?</string>
+    <string name="hon_sheet_sub">코치 문장 속에서 나를 부르는 말이에요</string>
+    <string name="hon_save">저장</string>
+    <string name="hon_empty_hint">부르는 말을 한 글자 이상 써 주세요</string>
+    <string name="hon_custom_placeholder">예: 지은아</string>
+    <string name="hon_custom_label">부르는 말 직접 쓰기</string>
+    <string name="hon_preview">미리보기</string>
+</resources>

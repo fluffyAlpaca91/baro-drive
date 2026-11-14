@@ -1,0 +1,13 @@
+<!-- 프로토타입 index.html 심볼 'sys-user' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M15.5,15 a8.5,8.5 0 1,0 17,0 a8.5,8.5 0 1,0 -17,0 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M7.5,43 c0,-9.4 7.4,-16 16.5,-16 s16.5,6.6 16.5,16 z"
+        android:fillColor="#FF000000" />
+</vector>

@@ -1,0 +1,9 @@
+# This repo is the contest submission (code + APK only). Docs, prototype and agent notes stay local.
+/docs/
+/prototype/
+/CLAUDE.md
+/.omc/
+
+# Signing keys (the release key lives outside the repo)
+*.jks
+*.keystore

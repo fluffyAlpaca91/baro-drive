@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 내 코스 (프로토타입 js/app/screens/mycourses.js, 설계 4.2 ST-3·CR-2) -->
+<resources>
+    <string name="screen_st_3">내 코스</string>
+    <string name="screen_cr_2">내비에서 불러오기</string>
+
+    <!-- ST-3 -->
+    <string name="mc_title">내 코스</string>
+    <string name="mc_sub">코스 추천에 먼저 나와요</string>
+    <string name="mc_import">내비 즐겨찾기에서 불러오기</string>
+    <string name="mc_note">코스 좌표는 차 안에만 둬요.</string>
+    <string name="mc_empty_title">아직 내 코스가 없어요</string>
+    <string name="mc_empty_body">코스 추천에서 별을 누르거나\n내비 즐겨찾기에서 불러와요.</string>
+    <string name="mc_change_mode">모드 바꾸기</string>
+    <string name="mc_remove">지우기</string>
+    <string name="mc_km">%1$.1fkm</string>
+    <string name="mc_sheet_title">어느 연습에 쓸까요?</string>
+    <string name="mc_sheet_change">바꾸기</string>
+    <string name="mc_moved">%1$s 내 코스로 옮겼어요</string>
+    <string name="mc_remove_title">내 코스에서 지울까요?</string>
+    <string name="mc_remove_body">%1$s 코스 추천에서도 빠져요. 내비에서 다시 불러올 수 있어요.</string>
+    <string name="mc_removed">내 코스에서 지웠어요</string>
+
+    <!-- CR-2 -->
+    <string name="cr2_title">내비에서 불러오기</string>
+    <string name="cr2_sub">즐겨찾기·최근 목적지를 내 코스로 가져와요</string>
+    <string name="cr2_tab_bookmark">즐겨찾기</string>
+    <string name="cr2_tab_recent">최근 목적지</string>
+    <string name="cr2_note">지금 위치에서 그 장소까지 가는 길을 코스로 만들어요. 좌표는 차 안에만 둬요.</string>
+    <string name="cr2_empty">저장된 장소가 없어요</string>
+    <string name="cr2_here_sub">지금 위치</string>
+    <string name="cr2_here">지금 있는 곳이에요</string>
+    <string name="cr2_import">가져오기</string>
+    <string name="cr2_close">닫기</string>
+    <string name="cr2_saved_tag">내 코스 · %1$s</string>
+    <string name="cr2_pick">어느 연습에 쓸까요?</string>
+    <string name="cr2_save">저장</string>
+    <string name="cr2_saved">%1$s 내 코스로 저장했어요</string>
+    <!-- 진짜 차: 차 내비(NaviHelper)의 즐겨찾기·최근 목적지 -->
+    <string name="cr2_loading">내비에서 장소를 받는 중이에요</string>
+    <string name="cr2_navi_failed">내비에서 장소를 받지 못했어요</string>
+    <string name="cr2_navi_failed_body">내비가 켜져 있는지 보고 다시 열어 주세요.</string>
+</resources>

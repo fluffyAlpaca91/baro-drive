@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 설정 (프로토타입 js/app/screens/settings.js, 설계 4.2 ST-1·ST-4·ST-5) -->
+<resources>
+    <string name="screen_st_1">설정</string>
+    <string name="screen_st_4">공유와 개인정보</string>
+    <string name="screen_st_5">앱 안내</string>
+
+    <!-- ST-1 설정 -->
+    <string name="st1_title">설정</string>
+    <string name="st1_sub">코치·피드백·기록·공유</string>
+    <string name="st1_group_data">기록과 개인정보</string>
+    <string name="st1_group_car">차와 앱</string>
+
+    <!-- ST-4 공유와 개인정보 -->
+    <string name="st4_title">공유와 개인정보</string>
+    <string name="st4_sub">기록은 이 차 안에만 둬요</string>
+    <string name="st4_to">받는 사람</string>
+    <string name="st4_to_label">받는 사람 이름</string>
+    <string name="st4_to_note">가족에게 요약을 보낼 때 이 이름으로 보여요</string>
+    <string name="st4_consent">동의</string>
+    <string name="st4_required">필수</string>
+    <string name="st4_privacy_note">앱은 음성을 녹음하지 않아요. 위치 좌표는 밖으로 보내지 않아요.</string>
+    <string name="st4_clear">모든 연습 기록 지우기</string>
+    <string name="st4_withdraw_title">기록 저장 동의를 거둘까요?</string>
+    <string name="st4_withdraw_body">기록 저장 동의를 거두면 이 차에 있는 연습 기록을 모두 지우고 처음 화면으로 돌아가요.</string>
+    <string name="st4_withdraw_confirm">지우고 거두기</string>
+    <string name="st4_clear_title">모든 연습 기록을 지울까요?</string>
+    <string name="st4_clear_body">회차 기록과 단계 진행을 지워요. 코치·호칭·피드백 설정과 내 코스는 그대로 남아요.</string>
+    <string name="st4_clear_confirm">모두 지우기</string>
+
+    <!-- ST-5 앱 안내 -->
+    <string name="st5_title">앱 안내</string>
+    <string name="st5_brand_a">바로</string>
+    <string name="st5_brand_b">운전</string>
+    <string name="st5_item_tool">이 앱은 운전 교습이 아니라 내 연습을 기록하고 짧게 알려 주는 도구예요. 사람 강사가 없고 교육 대가를 받지 않아요.</string>
+    <string name="st5_item_rules">판정 기준(깜빡이 40m, 급정지 1초 7.5km/h 등)은 공단 정의와 법령에서 가져왔지만, 일부는 설계 가정이라 실제로 써 보며 고쳐요.</string>
+    <string name="st5_item_law">법규 위반 여부를 판정하지 않아요.</string>
+    <string name="st5_version">버전 %1$s</string>
+</resources>

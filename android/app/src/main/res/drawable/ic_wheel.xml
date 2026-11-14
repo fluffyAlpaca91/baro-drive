@@ -1,0 +1,22 @@
+<!-- 프로토타입 index.html 심볼 'i-wheel' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). 위쪽 표시(민트 #35D6C0)도 tint를 받으면 같은 색이 된다. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:pathData="M10,50 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="10" />
+    <path
+        android:pathData="M39,52 a11,11 0 1,0 22,0 a11,11 0 1,0 -22,0 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M13,47 Q50,39 87,47 M50,62 v27"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="9"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M48,5 H52 A3,3 0 0,1 55,8 V14 A3,3 0 0,1 52,17 H48 A3,3 0 0,1 45,14 V8 A3,3 0 0,1 48,5 Z"
+        android:fillColor="#FF35D6C0" />
+</vector>

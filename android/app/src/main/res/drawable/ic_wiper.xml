@@ -1,0 +1,25 @@
+<!-- 프로토타입 index.html 심볼 'i-wiper' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M4.5,38 L9.5,13.5 Q24,8 38.5,13.5 L43.5,38 Q24,34.5 4.5,38 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M24,35 L13.5,18"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4.4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M19.8,35 a4.2,4.2 0 1,0 8.4,0 a4.2,4.2 0 1,0 -8.4,0 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M29,17.5 l2.5,-3.5 M33,21.5 l3,-2.5"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round" />
+</vector>

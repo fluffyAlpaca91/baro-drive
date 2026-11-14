@@ -1,0 +1,222 @@
+{
+ "mode": 2,
+ "stage": 2,
+ "sessionNoInMode": 2,
+ "noInMode": 2,
+ "coach": "mom",
+ "honorific": {
+  "type": "daughter",
+  "text": ""
+ },
+ "items": {
+  "J3": "O",
+  "A1": "O",
+  "PB1": "O",
+  "L1": "O",
+  "B1": "O",
+  "C1": "O",
+  "C2": "O",
+  "C4": "O",
+  "C5": "O",
+  "F1": "O",
+  "F2": "O",
+  "E1": "O",
+  "E2": "O",
+  "C3": "O",
+  "C6": "O",
+  "J1": "O",
+  "G1": "S",
+  "PK1": "X",
+  "PK2": "X",
+  "PK3": "X",
+  "PB2": "O",
+  "HL1": "X",
+  "HL2": "X",
+  "HL3": "X"
+ },
+ "itemReasons": {
+  "J3": "default",
+  "A1": "default",
+  "PB1": "default",
+  "L1": "default",
+  "B1": "default",
+  "C1": "first2",
+  "C2": "default",
+  "C4": "default",
+  "C5": "default",
+  "F1": "default",
+  "F2": "fixed",
+  "E1": "fixed",
+  "E2": "fixed",
+  "C3": "fixed",
+  "C6": "fixed",
+  "J1": "fixed",
+  "G1": "default",
+  "PK1": "default",
+  "PK2": "default",
+  "PK3": "default",
+  "PB2": "default",
+  "HL1": "default",
+  "HL2": "default",
+  "HL3": "default"
+ },
+ "weather": {
+  "snow": true,
+  "rain": false,
+  "severe": "fog"
+ },
+ "caps": {
+  "speed": true,
+  "gear": true,
+  "blinker": true,
+  "steer": true,
+  "nav": true,
+  "passenger": false,
+  "beltDriver": true,
+  "handbrake": true,
+  "wiper": true,
+  "outsideTemp": true,
+  "reverseSpeed": true,
+  "trip": true
+ },
+ "history": {
+  "baselineG1": 0.94,
+  "firstSessionMetrics": {
+   "c2Avg": 45,
+   "g1": 0.94,
+   "stopTotal": 11,
+   "stopFail": 1,
+   "stopFailRate": 0.091
+  },
+  "recentSessionsInMode": [
+   {
+    "id": "sess-20261110-0912",
+    "noInMode": 1,
+    "achievement": 0.769,
+    "qualified": false,
+    "fewEvents": false,
+    "tasks": [
+     {
+      "id": "T-30",
+      "label": "시속 30 넘지 않기",
+      "short": "30 구역",
+      "success": 0,
+      "total": 3
+     },
+     {
+      "id": "T-SIGNAL30",
+      "label": "꺾기 30m 전에 깜빡이 켜기",
+      "short": "깜빡이",
+      "success": 5,
+      "total": 6
+     },
+     {
+      "id": "T-WAIT3",
+      "label": "깜빡이 켜자마자 꺾지 않기",
+      "short": "깜빡이 켜고 셋 세기",
+      "success": 5,
+      "total": 6
+     },
+     {
+      "id": "T-STOP",
+      "label": "멈출 때 부드럽게 멈추기",
+      "short": "멈출 때 브레이크",
+      "success": 10,
+      "total": 11
+     }
+    ],
+    "metrics": {
+     "c2Avg": 45,
+     "stopFailRate": 0.091,
+     "g1": 0.94,
+     "c2N": 6,
+     "stopTotal": 11,
+     "stopFail": 1,
+     "g1Windows": 30,
+     "g1Better": -0.17,
+     "per10min": 10.1,
+     "praise": 2,
+     "correction": 1,
+     "spoken": 8,
+     "k4": {
+      "first": true,
+      "rows": []
+     }
+    },
+    "items": {
+     "J3": "O",
+     "A1": "O",
+     "PB1": "O",
+     "L1": "O",
+     "B1": "O",
+     "C1": "O",
+     "C2": "O",
+     "C4": "O",
+     "C5": "O",
+     "F1": "O",
+     "F2": "O",
+     "E1": "O",
+     "E2": "O",
+     "C3": "O",
+     "C6": "O",
+     "J1": "O",
+     "G1": "S",
+     "PK1": "X",
+     "PK2": "X",
+     "PK3": "X",
+     "PB2": "O",
+     "HL1": "X",
+     "HL2": "X",
+     "HL3": "X"
+    },
+    "fadedNow": []
+   }
+  ]
+ },
+ "fading": {
+  "B1": {
+   "streak": 1,
+   "faded": false
+  },
+  "C2": {
+   "streak": 1,
+   "faded": false
+  },
+  "C4": {
+   "streak": 1,
+   "faded": false
+  },
+  "C5": {
+   "streak": 1,
+   "faded": false
+  },
+  "F1": {
+   "streak": 1,
+   "faded": false
+  }
+ },
+ "overrides": {},
+ "seed": "baro:p1:m2:n2:c2-B",
+ "profileId": "p1",
+ "courseId": "c2-B",
+ "placeId": null,
+ "presetId": null,
+ "dest": "초등학교 뒤 골목",
+ "preEvents": [
+  {
+   "item": "L1",
+   "result": "info",
+   "data": {
+    "spoken": true,
+    "value": "O"
+   }
+  }
+ ],
+ "parking": null,
+ "startedAt": null,
+ "muted": false,
+ "startGear": "P",
+ "flags": {
+  "extraSafety": true
+ }
+}

@@ -1,0 +1,34 @@
+<!-- 프로토타입 index.html 심볼 'i-calendar' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M12,10 H36 A6,6 0 0,1 42,16 V37 A6,6 0 0,1 36,43 H12 A6,6 0 0,1 6,37 V16 A6,6 0 0,1 12,10 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4" />
+    <path
+        android:pathData="M6,16 a6,6 0 0,1 6,-6 h24 a6,6 0 0,1 6,6 v5 H6 z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M16,5 v8 M32,5 v8"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4.4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M14,26 H17 A1.5,1.5 0 0,1 18.5,27.5 V29.5 A1.5,1.5 0 0,1 17,31 H14 A1.5,1.5 0 0,1 12.5,29.5 V27.5 A1.5,1.5 0 0,1 14,26 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M22.5,26 H25.5 A1.5,1.5 0 0,1 27,27.5 V29.5 A1.5,1.5 0 0,1 25.5,31 H22.5 A1.5,1.5 0 0,1 21,29.5 V27.5 A1.5,1.5 0 0,1 22.5,26 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M31,26 H34 A1.5,1.5 0 0,1 35.5,27.5 V29.5 A1.5,1.5 0 0,1 34,31 H31 A1.5,1.5 0 0,1 29.5,29.5 V27.5 A1.5,1.5 0 0,1 31,26 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M14,33.5 H17 A1.5,1.5 0 0,1 18.5,35 V37 A1.5,1.5 0 0,1 17,38.5 H14 A1.5,1.5 0 0,1 12.5,37 V35 A1.5,1.5 0 0,1 14,33.5 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M22.5,33.5 H25.5 A1.5,1.5 0 0,1 27,35 V37 A1.5,1.5 0 0,1 25.5,38.5 H22.5 A1.5,1.5 0 0,1 21,37 V35 A1.5,1.5 0 0,1 22.5,33.5 Z"
+        android:fillColor="#FF000000" />
+</vector>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 첫 실행·온보딩 (프로토타입 js/app/screens/onboarding.js, 설계 4.2 ON-1~ON-5). 면허·운전 횟수 보기 글은 모델 LicenseAge·MonthlyDrives.label -->
+<resources>
+    <string name="screen_on_1">시작</string>
+    <string name="screen_on_2">기록 저장 동의</string>
+    <string name="screen_on_3">처음 질문</string>
+    <string name="screen_on_4">시작 단계 추천</string>
+    <string name="screen_on_5">코치·호칭 고르기(온보딩)</string>
+
+    <!-- 진행 점(질문 → 추천 → 코치) -->
+    <string name="ob_step_questions">질문</string>
+    <string name="ob_step_recommend">추천</string>
+    <string name="ob_step_coach">코치</string>
+
+    <!-- ON-1 시작 -->
+    <string name="ob_brand_accent">바로</string>
+    <string name="ob_brand_rest">운전</string>
+    <string name="ob_h1_1">바른 운전 습관,</string>
+    <string name="ob_h1_2">바로 타는 자신감</string>
+    <string name="ob_feat_voice">실제 차 신호로 연습을 기록하고 짧게 알려 드려요.</string>
+    <string name="ob_feat_turn">회전 전에 미리 알려 주고, 멈추면 다음 과제 하나를 드려요.</string>
+    <string name="ob_feat_shield">차를 제어하지 않고, 면허를 확인하지 않아요.</string>
+    <string name="ob_small">운전 교습이 아니라 내 연습을 돕는 도구예요.</string>
+    <string name="ob_start">시작하기</string>
+
+    <!-- ON-2 기록 저장 동의 -->
+    <string name="ob_consent_title">기록 저장 동의</string>
+    <string name="ob_consent_sub">처음 한 번만 정해요</string>
+    <string name="ob_consent_head">연습 기록을 차 안에 저장해요</string>
+    <string name="ob_consent_record">연습 기록 저장</string>
+    <string name="ob_consent_record_sub">회차 요약과 장면 기록을 이 차 안에만 최근 30회차까지 둬요. 위치 좌표는 밖으로 보내지 않아요.</string>
+    <string name="ob_consent_family">가족에게 요약 보내기</string>
+    <string name="ob_consent_family_sub">보낼지는 회차마다 내가 골라요. 요약 숫자만 가요.</string>
+    <string name="ob_tag_required">필수</string>
+    <string name="ob_tag_optional">선택</string>
+    <string name="ob_consent_note">학원 연계·보험사 제공 동의는 설정에서 따로 정해요. 앱은 음성을 녹음하지 않아요.</string>
+    <string name="ob_consent_next">동의하고 계속</string>
+    <string name="ob_consent_hint">연습 기록 저장에 동의해야 시작할 수 있어요</string>
+
+    <!-- ON-3 처음 질문 -->
+    <string name="ob_questions_title">처음 질문</string>
+    <string name="ob_questions_sub">알맞은 시작 단계를 찾아요</string>
+    <string name="ob_q_license">면허를 딴 지 얼마나 됐나요?</string>
+    <string name="ob_q_drives">최근 한 달에 몇 번 운전했나요?</string>
+    <string name="ob_next">다음</string>
+    <string name="ob_questions_hint">두 질문에 모두 답해 주세요</string>
+
+    <!-- ON-4 시작 단계 추천 -->
+    <string name="ob_rec_title">시작 단계 추천</string>
+    <string name="ob_rec_sub">두 답을 보고 골랐어요</string>
+    <string name="ob_rec_head_1">%1$d단계 ‘%2$s’부터</string>
+    <string name="ob_rec_head_2">시작해 보세요</string>
+    <string name="ob_rec_easier">추천보다 쉬운 단계도 고를 수 있어요.</string>
+    <string name="ob_rec_tag">추천</string>
+    <string name="ob_rec_locked">앞 단계를 통과하면 열려요</string>
+    <string name="ob_rec_learner">연습면허라면 ‘%1$s’로 시험장 주변 코스도 연습할 수 있어요. 면허 2년 넘은 분이 꼭 함께 타야 해요.</string>
+    <string name="ob_rec_start">%1$d단계로 시작</string>
+
+    <!-- ON-5 코치·호칭 -->
+    <string name="ob_coach_title">코치 고르기</string>
+    <string name="ob_coach_sub">언제든 바꿀 수 있어요</string>
+    <string name="ob_coach_ask">누구 말투로 들을까요?</string>
+    <string name="ob_coach_ask_hint">예: 깜빡이를 늦게 켰을 때</string>
+    <string name="ob_hon_head">코치가 나를 부르는 말</string>
+    <string name="ob_coach_start">이 코치로 시작</string>
+</resources>

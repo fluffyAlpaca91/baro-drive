@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 연습 코스 추천 (프로토타입 js/app/screens/course.js, 설계 4.2 CR-1). 코스 종류·안내 줄은 data/copy.js courseKinds 그대로 -->
+<resources>
+    <string name="screen_cr_1">연습 코스 추천</string>
+
+    <string name="course_title">연습 코스 추천</string>
+    <string name="course_sub">가깝고 덜 막히는 순서예요</string>
+    <string name="course_mode_head">%1$d · %2$s</string>
+    <string name="course_locked">%1$d단계를 통과하면 열려요</string>
+
+    <!-- copy.js courseKinds[mode].kind · note -->
+    <string name="course_kind_1">가까운 넓은 주차장 · 편안한 길</string>
+    <string name="course_kind_2">집 근처 골목 3km 안팎 · 편안한 길</string>
+    <string name="course_kind_3">왕복 4차로 시내 도로 5~8km · 추천</string>
+    <string name="course_kind_4">가까운 IC에서 다음 IC까지 · 고속도로 우선</string>
+    <string name="course_kind_5">원하는 목적지 · 코스 추천 없음</string>
+    <string name="course_kind_6">실제 주차는 넓은 주차장 · 편안한 길</string>
+    <string name="course_kind_7">근처 경사로 · 차가 적은 오르막·내리막</string>
+    <string name="course_kind_8">시험장 주변 연습 코스</string>
+    <string name="course_note_1">사유지 주차장은 관리자 허락을 받아 주세요.</string>
+    <string name="course_note_2">연습한 길은 별을 눌러 내 코스로 남겨요.</string>
+    <string name="course_note_3">퇴근 시간에는 더 막힐 수 있어요.</string>
+    <string name="course_note_4">차가 적은 시간에 한 구간만 달려요.</string>
+    <string name="course_note_6">세워 두고 하는 연습은 코스가 없어도 돼요.</string>
+    <string name="course_note_7">처음엔 완만한 곳에서, 뒤에 차가 없을 때 하세요.</string>
+    <string name="course_note_8">실제 시험과 다를 수 있어요 · 고속도로 없음</string>
+
+    <!-- 혼잡도 받는 중 -->
+    <string name="course_loading">혼잡도 받는 중</string>
+    <string name="course_loading_sub">가까운 코스의 길 상황을 확인하고 있어요</string>
+
+    <!-- 목록 -->
+    <string name="course_trip_off">혼잡도를 받지 못해 가까운 순서로 보여 드려요</string>
+    <string name="course_tag_best">덜 막혀요</string>
+    <string name="course_tag_mine">내 코스</string>
+    <string name="course_tag_ran">달렸어요</string>
+    <string name="course_meta">%1$s · %2$d분</string>
+    <string name="course_km">%1$.1fkm</string>
+    <string name="course_navi_place">내비에서 가져온 곳</string>
+    <string name="course_checked">데이터 확인일 %1$s</string>
+    <string name="course_checked_segments">데이터 확인일 %1$s · %2$d구간</string>
+    <string name="course_card_desc">%1$s 코스 %2$s</string>
+    <string name="course_star_add">%1$s 코스를 내 코스로 저장</string>
+    <string name="course_star_remove">%1$s 코스를 내 코스에서 빼기</string>
+    <string name="course_star_added">내 코스에 저장했어요</string>
+    <string name="course_star_removed">내 코스에서 뺐어요</string>
+    <string name="course_license_progress">%1$d개 중 %2$d개 달렸어요</string>
+    <string name="course_import">내비 즐겨찾기에서 불러오기</string>
+    <string name="course_video">공식 안내 영상</string>
+    <string name="course_video_body">도로교통공단 공식 유튜브의 ‘도로주행 안내 동영상’에서 이 시험장 코스를 볼 수 있어요. 영상은 정차 중에만, 휴대폰으로 보세요.</string>
+    <string name="course_ok">확인</string>
+
+    <!-- 빈 상태 -->
+    <string name="course_auto_title">자율 모드는 코스를 추천하지 않아요</string>
+    <string name="course_auto_body">목적지를 내비에 직접 넣고 출발해요.\n도착하면 안전운전 점수를 보여 줘요.</string>
+    <string name="course_auto_action">내 음성 피드백 설정 고르기</string>
+    <string name="course_none_title">이 근처엔 아직 코스가 없어요</string>
+    <string name="course_none_body">연습한 길을 내 코스로 저장해 보세요.</string>
+    <string name="course_none_body_6">연습한 길을 내 코스로 저장해 보세요. 세워 두고 하는 연습은 코스가 없어도 돼요.</string>
+
+    <!-- 하단 -->
+    <string name="course_start">%1$s 코스로 연습하기</string>
+    <string name="course_start_none">코스 없이 연습하기</string>
+    <string name="course_expired_hint">연습면허 유효기간이 지났어요 · 발급일을 다시 확인해 주세요</string>
+</resources>

@@ -1,0 +1,20 @@
+<!-- 프로토타입 index.html 심볼 'i-share' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M13,24 L34.5,11.5 M13,24 l21.5,12.5"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4.4" />
+    <path
+        android:pathData="M28.5,11 a6.5,6.5 0 1,0 13,0 a6.5,6.5 0 1,0 -13,0 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M6,24 a6.5,6.5 0 1,0 13,0 a6.5,6.5 0 1,0 -13,0 Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M28.5,37 a6.5,6.5 0 1,0 13,0 a6.5,6.5 0 1,0 -13,0 Z"
+        android:fillColor="#FF000000" />
+</vector>

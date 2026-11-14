@@ -1,0 +1,60 @@
+<!-- 프로토타입 index.html 심볼 'av-sib' (설계 2.4 아이콘·캐릭터). 색이 정해진 그림이라 tint 없이 그린다(Image). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:pathData="M0,60 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0 Z"
+        android:fillColor="#FFCDD5FF" />
+    <path
+        android:pathData="M18,122 c4,-23 20,-33 42,-33 s38,10 42,33 z"
+        android:fillColor="#FF5B67D8" />
+    <path
+        android:pathData="M53,96 v11 M67,96 v11"
+        android:strokeColor="#FFEEF0FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M58,78 H62 A6,6 0 0,1 68,84 V85 A6,6 0 0,1 62,91 H58 A6,6 0 0,1 52,85 V84 A6,6 0 0,1 58,78 Z"
+        android:fillColor="#FFF3C9A6" />
+    <path
+        android:pathData="M20,63 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 Z"
+        android:fillColor="#FFF3C9A6" />
+    <path
+        android:pathData="M86,63 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0 Z"
+        android:fillColor="#FFF3C9A6" />
+    <path
+        android:pathData="M27,61 a33,34 0 1,0 66,0 a33,34 0 1,0 -66,0 Z"
+        android:fillColor="#FFFFDCBE" />
+    <path
+        android:pathData="M25,61 C23,35 39,22 60,22 s39,13 35,39 l-6,-13 l-5,9 l-6,-14 l-7,12 l-6,-14 l-7,13 l-6,-13 l-6,11 l-7,-11 z"
+        android:fillColor="#FF2B2733" />
+    <path
+        android:pathData="M39,57.5 l13,3.5 M81,57.5 l-13,3.5"
+        android:strokeColor="#FF2B2733"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M40,68 h13 M67,68 h13"
+        android:strokeColor="#FF2B2733"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M43,68 a3.6,3.6 0 0,0 7.2,0 z M70,68 a3.6,3.6 0 0,0 7.2,0 z"
+        android:fillColor="#FF2B2733" />
+    <path
+        android:pathData="M51,87 q4.5,-3.5 9,0 t9,0"
+        android:strokeColor="#FF7A3B2E"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <group android:rotation="-24" android:pivotX="85" android:pivotY="79">
+        <path
+            android:pathData="M80,75 H90 A4,4 0 0,1 94,79 V79 A4,4 0 0,1 90,83 H80 A4,4 0 0,1 76,79 V79 A4,4 0 0,1 80,75 Z"
+            android:fillColor="#FFF7C98B" />
+        <path
+            android:pathData="M83,77 v4 M87,77 v4"
+            android:strokeColor="#FFC98F4E"
+            android:strokeWidth="1.5" />
+    </group>
+</vector>

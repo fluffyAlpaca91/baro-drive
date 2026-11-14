@@ -1,0 +1,2348 @@
+[
+ {
+  "t": 0.1,
+  "gear": "P",
+  "speed": 0,
+  "brake": false,
+  "steer": 0,
+  "blinker": "OFF",
+  "beltDriver": false,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 0,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t1",
+     "type": "TURN_RIGHT",
+     "distance": 260,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교앞길"
+    },
+    {
+     "id": "t2",
+     "type": "TURN_LEFT",
+     "distance": 700,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "초등학교길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 2834,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 39.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "RIGHT",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 239.3,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t1",
+     "type": "TURN_RIGHT",
+     "distance": 20,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교앞길"
+    },
+    {
+     "id": "t2",
+     "type": "TURN_LEFT",
+     "distance": 460,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "초등학교길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 2594,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 79.6,
+  "gear": "D",
+  "speed": 0,
+  "brake": true,
+  "steer": 0,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 505.7,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t2",
+     "type": "TURN_LEFT",
+     "distance": 200,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "초등학교길"
+    },
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 680,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 2328,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 119.6,
+  "gear": "D",
+  "speed": 25.3,
+  "brake": true,
+  "steer": -7,
+  "blinker": "LEFT",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 695,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t2",
+     "type": "TURN_LEFT",
+     "distance": 10,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "초등학교길"
+    },
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 490,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 580
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 2139,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 124.6,
+  "gear": "D",
+  "speed": 15,
+  "brake": false,
+  "steer": -12.77,
+  "blinker": "LEFT",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 718.4,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t2",
+     "type": "TURN_LEFT",
+     "distance": 0,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "초등학교길"
+    },
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 470,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 560
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 29.4,
+   "events": [],
+   "remain": 2115,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 129.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 747.1,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 440,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 910,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 530
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 2087,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 134.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": 0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 785.9,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 400,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 870,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 490
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 2048,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 139.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 824.8,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 360,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 830,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 450
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 2009,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 144.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": 0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 863.7,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 330,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 790,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 410
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1970,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 149.6,
+  "gear": "D",
+  "speed": 9,
+  "brake": true,
+  "steer": -0.51,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 892.3,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 300,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 760,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 380
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1941,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 154.6,
+  "gear": "D",
+  "speed": 0,
+  "brake": true,
+  "steer": 0,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 894.4,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 300,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 760,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 380
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1939,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 159.6,
+  "gear": "D",
+  "speed": 0,
+  "brake": true,
+  "steer": 0,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 894.4,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 300,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 760,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 380
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1939,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 164.6,
+  "gear": "D",
+  "speed": 15.04,
+  "brake": false,
+  "steer": 0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 901.3,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 290,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 750,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 370
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1932,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 169.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 935.4,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 250,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 720,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 340
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1898,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 174.6,
+  "gear": "D",
+  "speed": 33.64,
+  "brake": false,
+  "steer": 0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 975.4,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 210,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 680,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 300
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1858,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 179.6,
+  "gear": "D",
+  "speed": 38,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1027.6,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 160,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 630,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 250
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1806,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 184.6,
+  "gear": "D",
+  "speed": 33.35,
+  "brake": false,
+  "steer": 0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1078.3,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 110,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 580,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 200
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": true,
+   "heading": 0,
+   "events": [],
+   "remain": 1755,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 189.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1119.8,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 70,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 540,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 160
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1714,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 194.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": 0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1158.7,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 30,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 500,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 120
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1675,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 199.6,
+  "gear": "D",
+  "speed": 16.12,
+  "brake": true,
+  "steer": -0.85,
+  "blinker": "RIGHT",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1193.8,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t3",
+     "type": "TURN_RIGHT",
+     "distance": 0,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "학교뒷길"
+    },
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 460,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 80
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 1640,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 204.6,
+  "gear": "D",
+  "speed": 19.7,
+  "brake": false,
+  "steer": 0,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1215.4,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 440,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 890,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 60
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 1618,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 209.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1252.3,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 400,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 850,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 20
+    }
+   ],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 1581,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 214.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": 0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1291.2,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 360,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 810,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 0
+    }
+   ],
+   "inSchoolZone": true,
+   "congested": false,
+   "voice": true,
+   "heading": 90,
+   "events": [],
+   "remain": 1542,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 219.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1330.1,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 330,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 770,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 0
+    }
+   ],
+   "inSchoolZone": true,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 1504,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 224.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": 0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1369,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 290,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 740,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 0
+    }
+   ],
+   "inSchoolZone": true,
+   "congested": false,
+   "voice": true,
+   "heading": 90,
+   "events": [],
+   "remain": 1465,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 229.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1407.9,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 250,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 700,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 0
+    }
+   ],
+   "inSchoolZone": true,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 1426,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 234.6,
+  "gear": "D",
+  "speed": 9.5,
+  "brake": true,
+  "steer": 0.54,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1437,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 220,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 670,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 0
+    }
+   ],
+   "inSchoolZone": true,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 1397,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 239.6,
+  "gear": "D",
+  "speed": 0,
+  "brake": true,
+  "steer": 0,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1439.4,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 220,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 660,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 0
+    }
+   ],
+   "inSchoolZone": true,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 1394,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 244.6,
+  "gear": "D",
+  "speed": 0.47,
+  "brake": false,
+  "steer": 0.03,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1439.4,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 220,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 660,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 0
+    }
+   ],
+   "inSchoolZone": true,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 1394,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 249.6,
+  "gear": "D",
+  "speed": 23.97,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1456.7,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 200,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 650,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 0
+    }
+   ],
+   "inSchoolZone": true,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 1377,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 254.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": 0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1495.2,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 160,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 610,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 0
+    }
+   ],
+   "inSchoolZone": true,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 1339,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 259.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1534,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 120,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 570,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [
+    {
+     "id": "sz1",
+     "type": "SCHOOL_ZONE",
+     "remain": 0
+    }
+   ],
+   "inSchoolZone": true,
+   "congested": false,
+   "voice": false,
+   "heading": 90,
+   "events": [],
+   "remain": 1300,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 275.4,
+  "gear": "D",
+  "speed": 20.44,
+  "brake": true,
+  "steer": -0.97,
+  "blinker": "LEFT",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1655.4,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 0,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 450,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": true,
+   "heading": 90,
+   "events": [
+    {
+     "type": "waypointArrived",
+     "index": 1,
+     "segment": 1
+    }
+   ],
+   "remain": 1178,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 279.6,
+  "gear": "D",
+  "speed": 15,
+  "brake": false,
+  "steer": -12.77,
+  "blinker": "LEFT",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1673.5,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t4",
+     "type": "TURN_LEFT",
+     "distance": 0,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "놀이터길"
+    },
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 430,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 26.6,
+   "events": [],
+   "remain": 1160,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 319.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 1915.8,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t5",
+     "type": "TURN_LEFT",
+     "distance": 190,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    },
+    {
+     "id": "t6",
+     "type": "TURN_RIGHT",
+     "distance": 570,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "은행나무길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 918,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 348.4,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": 0.84,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 2139.8,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t5r",
+     "type": "TURN_LEFT",
+     "distance": 80,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    },
+    {
+     "id": "t6",
+     "type": "TURN_RIGHT",
+     "distance": 460,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "은행나무길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": true,
+   "heading": 0,
+   "events": [
+    {
+     "type": "reroute",
+     "turnId": "t5"
+    }
+   ],
+   "remain": 814,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 359.6,
+  "gear": "D",
+  "speed": 19.36,
+  "brake": true,
+  "steer": -0.85,
+  "blinker": "LEFT",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 2224.9,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t5r",
+     "type": "TURN_LEFT",
+     "distance": 0,
+     "dir": "L",
+     "blinker": "LEFT",
+     "ic": false,
+     "road": "공원길"
+    },
+    {
+     "id": "t6",
+     "type": "TURN_RIGHT",
+     "distance": 380,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "은행나무길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 729,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 399.6,
+  "gear": "D",
+  "speed": 0,
+  "brake": true,
+  "steer": 0,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 2447.6,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t6",
+     "type": "TURN_RIGHT",
+     "distance": 160,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "은행나무길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 270,
+   "events": [],
+   "remain": 506,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 425.3,
+  "gear": "D",
+  "speed": 19.9,
+  "brake": true,
+  "steer": -0.83,
+  "blinker": "RIGHT",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 2603.5,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [
+    {
+     "id": "t6",
+     "type": "TURN_RIGHT",
+     "distance": 0,
+     "dir": "R",
+     "blinker": "RIGHT",
+     "ic": false,
+     "road": "은행나무길"
+    }
+   ],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": true,
+   "heading": 270,
+   "events": [
+    {
+     "type": "waypointArrived",
+     "index": 2,
+     "segment": 1
+    }
+   ],
+   "remain": 350,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 439.6,
+  "gear": "D",
+  "speed": 28,
+  "brake": false,
+  "steer": -0.85,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 2693.1,
+  "nav": {
+   "status": "ROUTE_DRIVE",
+   "tbt": [],
+   "limit": 30,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": 261,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 472.2,
+  "gear": "D",
+  "speed": 18.28,
+  "brake": true,
+  "steer": -0.68,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 2944.1,
+  "nav": {
+   "status": "INACTIVE",
+   "tbt": [],
+   "limit": null,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": true,
+   "heading": 0,
+   "events": [
+    {
+     "type": "arrived"
+    }
+   ],
+   "remain": null,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ },
+ {
+  "t": 479.6,
+  "gear": "P",
+  "speed": 0,
+  "brake": false,
+  "steer": 0,
+  "blinker": "OFF",
+  "beltDriver": true,
+  "passenger": false,
+  "handbrake": false,
+  "wiper": false,
+  "lowBeam": true,
+  "night": true,
+  "outsideTemp": 15,
+  "tripDist": 2952.4,
+  "nav": {
+   "status": "INACTIVE",
+   "tbt": [],
+   "limit": null,
+   "cautions": [],
+   "inSchoolZone": false,
+   "congested": false,
+   "voice": false,
+   "heading": 0,
+   "events": [],
+   "remain": null,
+   "segment": {
+    "index": 1,
+    "count": 1
+   }
+  },
+  "model": "avante",
+  "maxSteer": 34
+ }
+]

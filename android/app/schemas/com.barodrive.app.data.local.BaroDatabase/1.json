@@ -1,0 +1,115 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "25262a1227da0955007e1e5c7a8c9067",
+    "entities": [
+      {
+        "tableName": "session_record",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`seq` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `profileId` TEXT NOT NULL, `recordId` TEXT NOT NULL, `mode` INTEGER NOT NULL, `stage` INTEGER, `noInMode` INTEGER, `kind` TEXT, `startedAt` TEXT, `simSec` REAL NOT NULL, `arrived` INTEGER NOT NULL, `qualified` INTEGER NOT NULL, `json` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "seq",
+            "columnName": "seq",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "profileId",
+            "columnName": "profileId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recordId",
+            "columnName": "recordId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mode",
+            "columnName": "mode",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "stage",
+            "columnName": "stage",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "noInMode",
+            "columnName": "noInMode",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "kind",
+            "columnName": "kind",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "startedAt",
+            "columnName": "startedAt",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "simSec",
+            "columnName": "simSec",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "arrived",
+            "columnName": "arrived",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "qualified",
+            "columnName": "qualified",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "json",
+            "columnName": "json",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "seq"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_session_record_profileId_recordId",
+            "unique": true,
+            "columnNames": [
+              "profileId",
+              "recordId"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_session_record_profileId_recordId` ON `${TABLE_NAME}` (`profileId`, `recordId`)"
+          },
+          {
+            "name": "index_session_record_profileId_mode",
+            "unique": false,
+            "columnNames": [
+              "profileId",
+              "mode"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_session_record_profileId_mode` ON `${TABLE_NAME}` (`profileId`, `mode`)"
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '25262a1227da0955007e1e5c7a8c9067')"
+    ]
+  }
+}

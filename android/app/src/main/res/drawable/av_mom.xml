@@ -1,0 +1,81 @@
+<!-- 프로토타입 index.html 심볼 'av-mom' (설계 2.4 아이콘·캐릭터). 색이 정해진 그림이라 tint 없이 그린다(Image). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:pathData="M0,60 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0 Z"
+        android:fillColor="#FFFFCFDB" />
+    <path
+        android:pathData="M18,122 c4,-23 20,-33 42,-33 s38,10 42,33 z"
+        android:fillColor="#FFE8668E" />
+    <path
+        android:pathData="M48,91 l12,9 l12,-9"
+        android:strokeColor="#FFFFE3EA"
+        android:strokeWidth="3"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M58,78 H62 A6,6 0 0,1 68,84 V85 A6,6 0 0,1 62,91 H58 A6,6 0 0,1 52,85 V84 A6,6 0 0,1 58,78 Z"
+        android:fillColor="#FFF3C9A6" />
+    <path
+        android:pathData="M19,49 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0 Z"
+        android:fillColor="#FF3B2B30" />
+    <path
+        android:pathData="M30,34 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0 Z"
+        android:fillColor="#FF3B2B30" />
+    <path
+        android:pathData="M46,28 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0 Z"
+        android:fillColor="#FF3B2B30" />
+    <path
+        android:pathData="M64,34 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0 Z"
+        android:fillColor="#FF3B2B30" />
+    <path
+        android:pathData="M76,49 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0 Z"
+        android:fillColor="#FF3B2B30" />
+    <path
+        android:pathData="M16.5,65 a10.5,10.5 0 1,0 21,0 a10.5,10.5 0 1,0 -21,0 Z"
+        android:fillColor="#FF3B2B30" />
+    <path
+        android:pathData="M82.5,65 a10.5,10.5 0 1,0 21,0 a10.5,10.5 0 1,0 -21,0 Z"
+        android:fillColor="#FF3B2B30" />
+    <path
+        android:pathData="M29,64 a31,31 0 1,0 62,0 a31,31 0 1,0 -62,0 Z"
+        android:fillColor="#FFFFDCBE" />
+    <path
+        android:pathData="M34,52 c6,-9 15,-13 26,-13 s20,4 26,13 c-8,-4 -17,-6 -26,-6 s-18,2 -26,6 z"
+        android:fillColor="#FF3B2B30" />
+    <path
+        android:pathData="M38,53 q7,-7 14,-2 M68,51 q7,-5 14,2"
+        android:strokeColor="#FF3B2B30"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M39.4,64 a6.6,6.6 0 1,0 13.2,0 a6.6,6.6 0 1,0 -13.2,0 Z"
+        android:fillColor="#FF2D2A32" />
+    <path
+        android:pathData="M67.4,64 a6.6,6.6 0 1,0 13.2,0 a6.6,6.6 0 1,0 -13.2,0 Z"
+        android:fillColor="#FF2D2A32" />
+    <path
+        android:pathData="M45.9,61.8 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0 Z"
+        android:fillColor="#FFFFFFFF" />
+    <path
+        android:pathData="M73.9,61.8 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0 Z"
+        android:fillColor="#FFFFFFFF" />
+    <path
+        android:pathData="M30,77 a6,3.6 0 1,0 12,0 a6,3.6 0 1,0 -12,0 Z"
+        android:fillColor="#FFFF8FA3"
+        android:fillAlpha="0.75" />
+    <path
+        android:pathData="M78,77 a6,3.6 0 1,0 12,0 a6,3.6 0 1,0 -12,0 Z"
+        android:fillColor="#FFFF8FA3"
+        android:fillAlpha="0.75" />
+    <path
+        android:pathData="M53.5,84 a6.5,8 0 1,0 13,0 a6.5,8 0 1,0 -13,0 Z"
+        android:fillColor="#FF8A2E44" />
+    <path
+        android:pathData="M99,24 l7,-8 M104,35 l10,-3 M91,15 l1,-9"
+        android:strokeColor="#FFE8668E"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round" />
+</vector>

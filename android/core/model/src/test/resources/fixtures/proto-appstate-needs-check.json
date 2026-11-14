@@ -1,0 +1,1026 @@
+{
+ "version": 1,
+ "activeProfileId": "p1",
+ "ui": {
+  "lastScreen": null,
+  "lastParams": {}
+ },
+ "profiles": {
+  "p1": {
+   "id": "p1",
+   "name": "운전자 1",
+   "createdAt": "2026-11-01T20:10:00+09:00",
+   "onboarding": {
+    "done": true,
+    "answers": {
+     "licenseAge": "under1",
+     "monthlyDrives": "1-3"
+    },
+    "recommendedStage": 1
+   },
+   "consent": {
+    "record": true,
+    "family": true,
+    "academy": false,
+    "insurer": false,
+    "familyName": "아버지"
+   },
+   "coach": "dad",
+   "honorific": {
+    "type": "none",
+    "text": ""
+   },
+   "progress": {
+    "currentStage": 2,
+    "unlockedStage": 2,
+    "graduatedAt": null,
+    "stages": {
+     "1": {
+      "qualified": 2,
+      "passedAt": "2026-11-06T09:32:00+09:00"
+     },
+     "2": {
+      "qualified": 0,
+      "passedAt": null
+     },
+     "3": {
+      "qualified": 0,
+      "passedAt": null
+     },
+     "4": {
+      "qualified": 0,
+      "passedAt": null
+     }
+    }
+   },
+   "sessionCount": {
+    "1": 3,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0
+   },
+   "feedback": {
+    "overrides": {}
+   },
+   "fading": {
+    "1": {
+     "B1": {
+      "streak": 2,
+      "faded": true
+     },
+     "C2": {
+      "streak": 0,
+      "faded": false
+     },
+     "C4": {
+      "streak": 0,
+      "faded": false
+     },
+     "C5": {
+      "streak": 3,
+      "faded": true
+     },
+     "F1": {
+      "streak": 2,
+      "faded": true
+     }
+    },
+    "2": {
+     "B1": {
+      "streak": 1,
+      "faded": false
+     },
+     "C2": {
+      "streak": 0,
+      "faded": false
+     },
+     "C4": {
+      "streak": 0,
+      "faded": false
+     },
+     "C5": {
+      "streak": 0,
+      "faded": false
+     },
+     "F1": {
+      "streak": 0,
+      "faded": false
+     }
+    }
+   },
+   "myPresets": [
+    {
+     "id": "ex-commute",
+     "name": "출퇴근용",
+     "example": true,
+     "desc": "안전 항목만 바로 피드백하고, 나머지는 주행 완료 후 피드백해요.",
+     "items": {
+      "J3": "S",
+      "A1": "S",
+      "PB1": "S",
+      "L1": "X",
+      "B1": "S",
+      "C1": "X",
+      "C2": "S",
+      "C4": "S",
+      "C5": "S",
+      "F1": "S",
+      "G1": "S",
+      "PB2": "S"
+     }
+    },
+    {
+     "id": "ex-rain",
+     "name": "비 오는 날",
+     "example": true,
+     "desc": "부드러운 출발·정지와 날씨 안내도 바로 피드백해요.",
+     "items": {
+      "J3": "O",
+      "A1": "S",
+      "PB1": "S",
+      "L1": "X",
+      "B1": "O",
+      "C1": "X",
+      "C2": "S",
+      "C4": "S",
+      "C5": "S",
+      "F1": "O",
+      "G1": "S",
+      "PB2": "S"
+     }
+    }
+   ],
+   "lastPresetId": null,
+   "myCourses": [
+    {
+     "id": "mc-c1-C",
+     "name": "강변 둔치 주차장",
+     "mode": 1,
+     "source": "saved",
+     "courseRef": "c1-C",
+     "example": true
+    },
+    {
+     "id": "mc-c2-A",
+     "name": "우리 동네 한 바퀴",
+     "mode": 2,
+     "source": "saved",
+     "courseRef": "c2-A",
+     "example": true
+    }
+   ],
+   "parking": {
+    "done": {}
+   },
+   "license": {
+    "issueDate": null,
+    "coursesDone": []
+   },
+   "g1Baseline": 1.1,
+   "firstMetrics": {
+    "c2Avg": 38,
+    "g1": 1.1,
+    "stopTotal": 8,
+    "stopFail": 3,
+    "stopFailRate": 0.375
+   },
+   "sessions": [
+    {
+     "id": "sess-20261110-1844",
+     "mode": 2,
+     "stage": 2,
+     "noInMode": 1,
+     "courseId": "c2-B",
+     "placeId": null,
+     "presetId": null,
+     "startedAt": "2026-11-10T18:44:00+09:00",
+     "simSec": 726,
+     "driveSec": 675,
+     "distanceM": 3200,
+     "arrived": true,
+     "weather": {
+      "type": "clear",
+      "severe": false,
+      "cold": false
+     },
+     "caps": {
+      "speed": true,
+      "gear": true,
+      "blinker": true,
+      "steer": true,
+      "nav": true,
+      "passenger": true,
+      "beltDriver": true,
+      "handbrake": true,
+      "wiper": true,
+      "outsideTemp": true,
+      "reverseSpeed": true,
+      "trip": true
+     },
+     "items": {
+      "J3": "O",
+      "A1": "O",
+      "PB1": "O",
+      "L1": "O",
+      "B1": "O",
+      "C1": "O",
+      "C2": "O",
+      "C4": "O",
+      "C5": "O",
+      "F1": "O",
+      "F2": "O",
+      "E1": "O",
+      "E2": "O",
+      "C3": "O",
+      "C6": "O",
+      "J1": "O",
+      "G1": "S",
+      "PK1": "X",
+      "PK2": "X",
+      "PK3": "X",
+      "PB2": "O",
+      "HL1": "X",
+      "HL2": "X",
+      "HL3": "X"
+     },
+     "events": [],
+     "utterances": [],
+     "tasks": [
+      {
+       "id": "T-30",
+       "label": "시속 30 넘지 않기",
+       "short": "30 구역",
+       "success": 1,
+       "total": 2
+      },
+      {
+       "id": "T-SIGNAL30",
+       "label": "꺾기 30m 전에 깜빡이 켜기",
+       "short": "깜빡이",
+       "success": 4,
+       "total": 6
+      },
+      {
+       "id": "T-WAIT3",
+       "label": "깜빡이 켜자마자 꺾지 않기",
+       "short": "깜빡이 켜고 셋 세기",
+       "success": 3,
+       "total": 4
+      },
+      {
+       "id": "T-STOP",
+       "label": "멈출 때 부드럽게 멈추기",
+       "short": "멈출 때 브레이크",
+       "success": 3,
+       "total": 5
+      }
+     ],
+     "achievement": 0.647,
+     "qualified": false,
+     "fewEvents": false,
+     "nextTask": {
+      "id": "T-30",
+      "label": "30 구역 지키기",
+      "short": "30 구역",
+      "reason": "safety"
+     },
+     "metrics": {
+      "c2Avg": 45,
+      "c2N": 6,
+      "stopTotal": 5,
+      "stopFail": 2,
+      "stopFailRate": 0.4,
+      "g1": 0.9,
+      "g1Windows": 8,
+      "g1Better": 0.18,
+      "per10min": 4.4,
+      "praise": 4,
+      "correction": 2,
+      "spoken": 5,
+      "k4": {
+       "first": false,
+       "rows": [
+        {
+         "id": "c2Avg",
+         "label": "깜빡이 켠 거리 평균",
+         "from": 38,
+         "to": 45,
+         "text": "38m → 45m",
+         "better": true
+        },
+        {
+         "id": "stop",
+         "label": "급정지 비율",
+         "from": 0.375,
+         "to": 0.4,
+         "text": "3/8 → 2/5",
+         "better": false
+        },
+        {
+         "id": "g1",
+         "label": "직진 핸들 흔들림",
+         "from": 1.1,
+         "to": 0.9,
+         "text": "첫날보다 18% 안정",
+         "better": true
+        }
+       ]
+      }
+     },
+     "f2": [
+      {
+       "id": "f2-1",
+       "t": 412.3,
+       "v0": 28,
+       "v1": 0,
+       "dur": 1.4,
+       "maxDrop1s": 12.6,
+       "stopped": true,
+       "choice": null
+      }
+     ],
+     "score": null,
+     "hill": null,
+     "parking": null,
+     "license": null,
+     "tips": [],
+     "fadedNow": [],
+     "share": {
+      "status": "queued",
+      "to": "아버지"
+     },
+     "itemStats": {
+      "E1": {
+       "ok": 1,
+       "total": 2
+      },
+      "C2": {
+       "ok": 4,
+       "total": 6
+      },
+      "C4": {
+       "ok": 3,
+       "total": 4
+      },
+      "F1": {
+       "ok": 3,
+       "total": 5
+      },
+      "B1": {
+       "ok": 3,
+       "total": 3
+      },
+      "C5": {
+       "ok": 3,
+       "total": 4
+      }
+     },
+     "good": [
+      {
+       "id": "G1",
+       "text": "직진할 때 핸들 첫날보다 18% 안정"
+      }
+     ],
+     "bad": [
+      {
+       "id": "F1",
+       "text": "멈출 때 브레이크를 조금 세게 2번"
+      },
+      {
+       "id": "C2",
+       "text": "회전 전 깜빡이 조금 늦게 2번"
+      },
+      {
+       "id": "E1-30",
+       "text": "30 구역 초과 1번"
+      }
+     ],
+     "fadedNote": null,
+     "progress": {
+      "applied": true,
+      "mode": 2,
+      "stage": 2,
+      "qualified": false,
+      "qualifiedBefore": 0,
+      "qualifiedAfter": 0,
+      "need": 2,
+      "alreadyPassed": false,
+      "pastStage": false,
+      "passed": false,
+      "graduated": false,
+      "nextStage": null,
+      "passedAt": null,
+      "fadedNow": [],
+      "restoredNow": []
+     }
+    },
+    {
+     "id": "sess-20261106-0932",
+     "mode": 1,
+     "stage": 1,
+     "noInMode": 3,
+     "courseId": "c1-A",
+     "placeId": null,
+     "presetId": null,
+     "startedAt": "2026-11-06T09:32:00+09:00",
+     "simSec": 528,
+     "driveSec": 491,
+     "distanceM": 1800,
+     "arrived": true,
+     "weather": {
+      "type": "clear",
+      "severe": false,
+      "cold": false
+     },
+     "caps": {
+      "speed": true,
+      "gear": true,
+      "blinker": true,
+      "steer": true,
+      "nav": true,
+      "passenger": true,
+      "beltDriver": true,
+      "handbrake": true,
+      "wiper": true,
+      "outsideTemp": true,
+      "reverseSpeed": true,
+      "trip": true
+     },
+     "items": {
+      "J3": "O",
+      "A1": "O",
+      "PB1": "O",
+      "L1": "O",
+      "B1": "O",
+      "C1": "O",
+      "C2": "O",
+      "C4": "O",
+      "C5": "S",
+      "F1": "O",
+      "F2": "O",
+      "E1": "O",
+      "E2": "O",
+      "C3": "O",
+      "C6": "O",
+      "J1": "O",
+      "G1": "S",
+      "PK1": "X",
+      "PK2": "X",
+      "PK3": "X",
+      "PB2": "O",
+      "HL1": "X",
+      "HL2": "X",
+      "HL3": "X"
+     },
+     "events": [],
+     "utterances": [],
+     "tasks": [
+      {
+       "id": "T-START",
+       "label": "엑셀 살살 밟아서 출발하기",
+       "short": "출발",
+       "success": 5,
+       "total": 5
+      },
+      {
+       "id": "T-STOP",
+       "label": "브레이크 부드럽게 밟아서 멈추기",
+       "short": "멈출 때 브레이크",
+       "success": 7,
+       "total": 8
+      },
+      {
+       "id": "T-SIGNAL1",
+       "label": "핸들 돌리기 전에 깜빡이 켜기",
+       "short": "깜빡이",
+       "success": 5,
+       "total": 5
+      }
+     ],
+     "achievement": 0.944,
+     "qualified": true,
+     "fewEvents": false,
+     "nextTask": {
+      "id": "T-STOP",
+      "label": "브레이크 부드럽게 밟아서 멈추기",
+      "short": "멈출 때 브레이크",
+      "reason": "lowest"
+     },
+     "metrics": {
+      "c2Avg": 47,
+      "c2N": 3,
+      "stopTotal": 8,
+      "stopFail": 1,
+      "stopFailRate": 0.125,
+      "g1": 0.92,
+      "g1Windows": 8,
+      "g1Better": 0.16,
+      "per10min": 4.8,
+      "praise": 6,
+      "correction": 1,
+      "spoken": 4,
+      "k4": {
+       "first": false,
+       "rows": [
+        {
+         "id": "c2Avg",
+         "label": "깜빡이 켠 거리 평균",
+         "from": 38,
+         "to": 47,
+         "text": "38m → 47m",
+         "better": true
+        },
+        {
+         "id": "stop",
+         "label": "급정지 비율",
+         "from": 0.375,
+         "to": 0.125,
+         "text": "3/8 → 1/8",
+         "better": true
+        },
+        {
+         "id": "g1",
+         "label": "직진 핸들 흔들림",
+         "from": 1.1,
+         "to": 0.92,
+         "text": "첫날보다 16% 안정",
+         "better": true
+        }
+       ]
+      }
+     },
+     "f2": [],
+     "score": null,
+     "hill": null,
+     "parking": null,
+     "license": null,
+     "tips": [],
+     "fadedNow": [
+      "B1",
+      "F1"
+     ],
+     "share": {
+      "status": "none"
+     },
+     "itemStats": {
+      "B1": {
+       "ok": 5,
+       "total": 5
+      },
+      "F1": {
+       "ok": 7,
+       "total": 8
+      },
+      "C5": {
+       "ok": 5,
+       "total": 5
+      },
+      "C2": {
+       "ok": 2,
+       "total": 3
+      },
+      "C4": {
+       "ok": 2,
+       "total": 3
+      }
+     },
+     "good": [
+      {
+       "id": "T-START",
+       "text": "엑셀 살살 밟아서 출발하기 5/5번"
+      },
+      {
+       "id": "T-SIGNAL1",
+       "text": "핸들 돌리기 전에 깜빡이 켜기 5/5번"
+      },
+      {
+       "id": "G1",
+       "text": "직진할 때 핸들 첫날보다 16% 안정"
+      }
+     ],
+     "bad": [
+      {
+       "id": "F1",
+       "text": "멈출 때 브레이크를 조금 세게 1번"
+      }
+     ],
+     "fadedNote": "출발·정지는 두 번 연속 잘해서 다음부터 리포트로만 알려 줄게요.",
+     "progress": {
+      "applied": true,
+      "mode": 1,
+      "stage": 1,
+      "qualified": true,
+      "qualifiedBefore": 1,
+      "qualifiedAfter": 2,
+      "need": 2,
+      "alreadyPassed": false,
+      "pastStage": false,
+      "passed": true,
+      "graduated": false,
+      "nextStage": 2,
+      "passedAt": "2026-11-06T09:32:00+09:00",
+      "fadedNow": [
+       "B1",
+       "F1"
+      ],
+      "restoredNow": []
+     }
+    },
+    {
+     "id": "sess-20261104-1901",
+     "mode": 1,
+     "stage": 1,
+     "noInMode": 2,
+     "courseId": "c1-B",
+     "placeId": null,
+     "presetId": null,
+     "startedAt": "2026-11-04T19:01:00+09:00",
+     "simSec": 462,
+     "driveSec": 430,
+     "distanceM": 2600,
+     "arrived": true,
+     "weather": {
+      "type": "clear",
+      "severe": false,
+      "cold": false
+     },
+     "caps": {
+      "speed": true,
+      "gear": true,
+      "blinker": true,
+      "steer": true,
+      "nav": true,
+      "passenger": true,
+      "beltDriver": true,
+      "handbrake": true,
+      "wiper": true,
+      "outsideTemp": true,
+      "reverseSpeed": true,
+      "trip": true
+     },
+     "items": {
+      "J3": "O",
+      "A1": "O",
+      "PB1": "O",
+      "L1": "O",
+      "B1": "O",
+      "C1": "O",
+      "C2": "O",
+      "C4": "O",
+      "C5": "O",
+      "F1": "O",
+      "F2": "O",
+      "E1": "O",
+      "E2": "O",
+      "C3": "O",
+      "C6": "O",
+      "J1": "O",
+      "G1": "S",
+      "PK1": "X",
+      "PK2": "X",
+      "PK3": "X",
+      "PB2": "O",
+      "HL1": "X",
+      "HL2": "X",
+      "HL3": "X"
+     },
+     "events": [],
+     "utterances": [],
+     "tasks": [
+      {
+       "id": "T-START",
+       "label": "엑셀 살살 밟아서 출발하기",
+       "short": "출발",
+       "success": 4,
+       "total": 4
+      },
+      {
+       "id": "T-STOP",
+       "label": "브레이크 부드럽게 밟아서 멈추기",
+       "short": "멈출 때 브레이크",
+       "success": 6,
+       "total": 7
+      },
+      {
+       "id": "T-SIGNAL1",
+       "label": "핸들 돌리기 전에 깜빡이 켜기",
+       "short": "깜빡이",
+       "success": 4,
+       "total": 5
+      }
+     ],
+     "achievement": 0.875,
+     "qualified": true,
+     "fewEvents": false,
+     "nextTask": {
+      "id": "T-SIGNAL1",
+      "label": "핸들 돌리기 전에 깜빡이 켜기",
+      "short": "깜빡이",
+      "reason": "lowest"
+     },
+     "metrics": {
+      "c2Avg": 44,
+      "c2N": 3,
+      "stopTotal": 7,
+      "stopFail": 1,
+      "stopFailRate": 0.143,
+      "g1": 0.98,
+      "g1Windows": 8,
+      "g1Better": 0.11,
+      "per10min": 5.1,
+      "praise": 6,
+      "correction": 2,
+      "spoken": 4,
+      "k4": {
+       "first": false,
+       "rows": [
+        {
+         "id": "c2Avg",
+         "label": "깜빡이 켠 거리 평균",
+         "from": 38,
+         "to": 44,
+         "text": "38m → 44m",
+         "better": true
+        },
+        {
+         "id": "stop",
+         "label": "급정지 비율",
+         "from": 0.375,
+         "to": 0.143,
+         "text": "3/8 → 1/7",
+         "better": true
+        },
+        {
+         "id": "g1",
+         "label": "직진 핸들 흔들림",
+         "from": 1.1,
+         "to": 0.98,
+         "text": "첫날보다 11% 안정",
+         "better": true
+        }
+       ]
+      }
+     },
+     "f2": [],
+     "score": null,
+     "hill": null,
+     "parking": null,
+     "license": null,
+     "tips": [],
+     "fadedNow": [
+      "C5"
+     ],
+     "share": {
+      "status": "none"
+     },
+     "itemStats": {
+      "B1": {
+       "ok": 4,
+       "total": 4
+      },
+      "F1": {
+       "ok": 6,
+       "total": 7
+      },
+      "C5": {
+       "ok": 4,
+       "total": 5
+      },
+      "C2": {
+       "ok": 2,
+       "total": 3
+      },
+      "C4": {
+       "ok": 2,
+       "total": 3
+      }
+     },
+     "good": [
+      {
+       "id": "T-START",
+       "text": "엑셀 살살 밟아서 출발하기 4/4번"
+      },
+      {
+       "id": "T-STOP",
+       "text": "브레이크 부드럽게 밟아서 멈추기 6/7번"
+      },
+      {
+       "id": "G1",
+       "text": "직진할 때 핸들 첫날보다 11% 안정"
+      }
+     ],
+     "bad": [
+      {
+       "id": "C5",
+       "text": "깜빡이 없이 회전 1번"
+      }
+     ],
+     "fadedNote": "꺾기 전 깜빡이는 두 번 연속 잘해서 다음부터 리포트로만 알려 줄게요.",
+     "progress": {
+      "applied": true,
+      "mode": 1,
+      "stage": 1,
+      "qualified": true,
+      "qualifiedBefore": 0,
+      "qualifiedAfter": 1,
+      "need": 2,
+      "alreadyPassed": false,
+      "pastStage": false,
+      "passed": false,
+      "graduated": false,
+      "nextStage": null,
+      "passedAt": null,
+      "fadedNow": [
+       "C5"
+      ],
+      "restoredNow": []
+     }
+    },
+    {
+     "id": "sess-20261102-1817",
+     "mode": 1,
+     "stage": 1,
+     "noInMode": 1,
+     "courseId": "c1-B",
+     "placeId": null,
+     "presetId": null,
+     "startedAt": "2026-11-02T18:17:00+09:00",
+     "simSec": 462,
+     "driveSec": 430,
+     "distanceM": 2600,
+     "arrived": true,
+     "weather": {
+      "type": "clear",
+      "severe": false,
+      "cold": false
+     },
+     "caps": {
+      "speed": true,
+      "gear": true,
+      "blinker": true,
+      "steer": true,
+      "nav": true,
+      "passenger": true,
+      "beltDriver": true,
+      "handbrake": true,
+      "wiper": true,
+      "outsideTemp": true,
+      "reverseSpeed": true,
+      "trip": true
+     },
+     "items": {
+      "J3": "O",
+      "A1": "O",
+      "PB1": "O",
+      "L1": "O",
+      "B1": "O",
+      "C1": "O",
+      "C2": "O",
+      "C4": "O",
+      "C5": "O",
+      "F1": "O",
+      "F2": "O",
+      "E1": "O",
+      "E2": "O",
+      "C3": "O",
+      "C6": "O",
+      "J1": "O",
+      "G1": "S",
+      "PK1": "X",
+      "PK2": "X",
+      "PK3": "X",
+      "PB2": "O",
+      "HL1": "X",
+      "HL2": "X",
+      "HL3": "X"
+     },
+     "events": [],
+     "utterances": [],
+     "tasks": [
+      {
+       "id": "T-START",
+       "label": "엑셀 살살 밟아서 출발하기",
+       "short": "출발",
+       "success": 3,
+       "total": 4
+      },
+      {
+       "id": "T-STOP",
+       "label": "브레이크 부드럽게 밟아서 멈추기",
+       "short": "멈출 때 브레이크",
+       "success": 5,
+       "total": 8
+      },
+      {
+       "id": "T-SIGNAL1",
+       "label": "핸들 돌리기 전에 깜빡이 켜기",
+       "short": "깜빡이",
+       "success": 4,
+       "total": 4
+      }
+     ],
+     "achievement": 0.75,
+     "qualified": false,
+     "fewEvents": false,
+     "nextTask": {
+      "id": "T-STOP",
+      "label": "브레이크 부드럽게 밟아서 멈추기",
+      "short": "멈출 때 브레이크",
+      "reason": "lowest"
+     },
+     "metrics": {
+      "c2Avg": 38,
+      "c2N": 3,
+      "stopTotal": 8,
+      "stopFail": 3,
+      "stopFailRate": 0.375,
+      "g1": 1.1,
+      "g1Windows": 8,
+      "g1Better": -0.38,
+      "per10min": 5.6,
+      "praise": 5,
+      "correction": 3,
+      "spoken": 4,
+      "k4": {
+       "first": true,
+       "rows": []
+      }
+     },
+     "f2": [],
+     "score": null,
+     "hill": null,
+     "parking": null,
+     "license": null,
+     "tips": [],
+     "fadedNow": [],
+     "share": {
+      "status": "none"
+     },
+     "itemStats": {
+      "B1": {
+       "ok": 3,
+       "total": 4
+      },
+      "F1": {
+       "ok": 5,
+       "total": 8
+      },
+      "C5": {
+       "ok": 4,
+       "total": 4
+      },
+      "C2": {
+       "ok": 2,
+       "total": 3
+      },
+      "C4": {
+       "ok": 2,
+       "total": 3
+      }
+     },
+     "good": [
+      {
+       "id": "T-SIGNAL1",
+       "text": "핸들 돌리기 전에 깜빡이 켜기 4/4번"
+      }
+     ],
+     "bad": [
+      {
+       "id": "F1",
+       "text": "멈출 때 브레이크를 조금 세게 3번"
+      },
+      {
+       "id": "B1",
+       "text": "출발할 때 엑셀을 조금 세게 1번"
+      }
+     ],
+     "fadedNote": null,
+     "progress": {
+      "applied": true,
+      "mode": 1,
+      "stage": 1,
+      "qualified": false,
+      "qualifiedBefore": 0,
+      "qualifiedAfter": 0,
+      "need": 2,
+      "alreadyPassed": false,
+      "pastStage": false,
+      "passed": false,
+      "graduated": false,
+      "nextStage": null,
+      "passedAt": null,
+      "fadedNow": [],
+      "restoredNow": []
+     }
+    }
+   ],
+   "shareQueue": [
+    "sess-20261110-1844"
+   ]
+  }
+ }
+}

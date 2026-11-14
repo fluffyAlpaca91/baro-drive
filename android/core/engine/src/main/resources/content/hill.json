@@ -1,0 +1,51 @@
+{
+  "about": "언덕 연습 모양(설계 4.2 HL-1 · HL-2, 표 A-8, 목업 s13a · s13b, 프로토타입 js/data/lines/hill.js의 BaroData.hill). practices: 연습 칩과 단계 칸(key = 단계 문장 대사 키, sig = 다음 단계로 넘어가는 신호 안내, tap = 화면 누름 단계). situations: 언덕 주차 상황과 맞는 앞바퀴 방향(side L·R, 종합 4장 표). text: 화면 글.",
+  "practices": [
+    {
+      "id": "up",
+      "name": "오르막 출발",
+      "sub": "오르막에서 멈췄다가 출발하기",
+      "steps": [
+        { "n": 1, "key": "hl1.up.1", "label": "멈추기", "icon": "i-brake", "sig": "차가 멈추면 넘어가요", "tap": false },
+        { "n": 2, "key": "hl1.up.2", "label": "사이드브레이크", "icon": "i-pbrake", "sig": "했으면 화면을 눌러 주세요", "tap": true },
+        { "n": 3, "key": "hl1.up.3", "label": "발 옮기기", "icon": "i-pedals", "sig": "브레이크를 떼면 다음 단계로 넘어가요", "tap": false },
+        { "n": 4, "key": "hl1.up.4", "label": "천천히 출발", "icon": "i-up", "sig": "차가 움직이면 끝나요", "tap": false }
+      ]
+    },
+    {
+      "id": "down",
+      "name": "내리막 감속",
+      "sub": "내리막에서 브레이크 나눠 밟기",
+      "steps": [
+        { "n": 1, "key": "hl1.down.1", "label": "미리 줄이기", "icon": "i-slow", "sig": "내리막 주의 구간이 오면 알려 줘요", "tap": true },
+        { "n": 2, "key": "hl1.down.2", "label": "나눠 밟기", "icon": "i-pulse", "sig": "밟고 떼는 횟수를 세요", "tap": false },
+        { "n": 3, "key": "hl1.down.3", "label": "평소 속도", "icon": "i-check", "sig": "화면을 눌러 끝내요", "tap": true }
+      ]
+    },
+    {
+      "id": "park",
+      "name": "언덕 주차",
+      "sub": "언덕에 세울 때 앞바퀴 방향",
+      "steps": [
+        { "n": 1, "key": "hl1.park.1", "label": "상황 고르기", "icon": "i-info", "sig": "상황을 고르면 넘어가요", "tap": false },
+        { "n": 2, "key": "hl1.park.2", "label": "바퀴 돌리기", "icon": "i-wheel", "sig": "앞바퀴가 맞는 쪽으로 돌면 넘어가요", "tap": false },
+        { "n": 3, "key": "hl1.park.3", "label": "P · 사이드브레이크", "icon": "i-pbrake", "sig": "기어를 P로 바꾸면 끝나요", "tap": false }
+      ]
+    }
+  ],
+  "situations": [
+    { "id": "down", "label": "내리막·연석 있음", "side": "R", "sideText": "연석 쪽(오른쪽)", "dirName": "오른쪽", "curb": true, "why": "차가 밀려도 앞바퀴가 연석에 걸려요.", "front": "차 앞쪽이 내리막" },
+    { "id": "up", "label": "오르막·연석 있음", "side": "L", "sideText": "연석 반대쪽(왼쪽)", "dirName": "왼쪽", "curb": true, "why": "차가 뒤로 밀려도 앞바퀴 뒤쪽이 연석에 걸려요.", "front": "차 앞쪽이 오르막" },
+    { "id": "none", "label": "연석 없음", "side": "R", "sideText": "길 가장자리 쪽(오른쪽)", "dirName": "오른쪽", "curb": false, "why": "차가 밀려도 차도 가운데로 나가지 않아요.", "front": "오르막·내리막 같음" }
+  ],
+  "text": {
+    "holdWarn": "계속 밟지 말고 나눠서 밟아요",
+    "rollbackOff": "뒤로 밀림은 기록하지 않았어요",
+    "safety": "처음엔 완만한 곳에서, 차가 적은 시간에, 뒤에 차가 없을 때 하세요. 가족이 함께 타면 좋아요.",
+    "retry": "처음엔 완만한 곳에서 다시 해 보세요",
+    "done": { "up": "오르막 출발을 한 번 마쳤어요", "down": "내리막 감속을 마쳤어요", "park": "언덕 주차를 마쳤어요" },
+    "wheelStraight": "지금 앞바퀴 똑바로",
+    "wheelOk": "방향이 맞아요",
+    "wheelWrong": "반대예요"
+  }
+}

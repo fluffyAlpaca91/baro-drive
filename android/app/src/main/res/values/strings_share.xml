@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 가족에게 요약 보내기 (프로토타입 js/app/screens/share.js, 설계 4.2 RV-7) -->
+<resources>
+    <string name="screen_rv_7">가족에게 요약 보내기</string>
+
+    <string name="sh_title">가족에게 요약 보내기</string>
+    <string name="sh_consent_title">요약을 보내려면 가족 공유에 동의해야 해요</string>
+    <string name="sh_consent_body">보낼지는 회차마다 내가 골라요. 요약 숫자만 가고 위치와 경로는 보내지 않아요. 설정 › 공유와 개인정보에서 언제든 끌 수 있어요.</string>
+    <string name="sh_agree">동의하고 계속</string>
+    <string name="sh_to">받는 사람</string>
+    <string name="sh_no_location">위치와 경로는 보내지 않아요.</string>
+    <string name="sh_was">이미 보냈어요 · 다시 보내면 한 번 더 가요</string>
+    <string name="sh_offline">지금은 연결이 끊겨 있어요 · 연결되면 보내요</string>
+    <string name="sh_sending">보내는 중이에요</string>
+    <string name="sh_send">보내기</string>
+    <string name="sh_resend">다시 보내기</string>
+</resources>

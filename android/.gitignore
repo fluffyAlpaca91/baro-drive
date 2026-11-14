@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+# Kotlin Gradle plugin project data (daemon logs, session files)
+.kotlin/
+
+# Written by Android Studio with this machine's sdk.dir. Never commit.
+local.properties
+# Left behind only if scripts/gradlew-wsl.sh could not restore it
+local.properties.wsl-bak
+
+# Android Studio / IntelliJ (shared .idea settings such as codeStyles stay tracked)
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/deploymentTargetSelector.xml
+.idea/appInsightsSettings.xml
+.idea/studiobot.xml
+.idea/shelf/
+captures/
+.navigation/
+
+# Native builds
+.cxx/
+.externalNativeBuild/
+
+# Heap dumps, OS files
+*.hprof
+.DS_Store
+Thumbs.db

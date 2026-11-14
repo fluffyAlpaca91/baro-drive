@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 리뷰 (프로토타입 js/app/screens/review.js, 설계 4.2 RV-1). 회차 글(부제·과제 달성·급제동·말 수)은 엔진 ReviewText가 만든다 -->
+<resources>
+    <string name="screen_rv_1">오늘 연습 돌아보기</string>
+
+    <string name="rv_title">오늘 연습 돌아보기</string>
+    <string name="rv_title_past">연습 돌아보기</string>
+
+    <!-- 구역 -->
+    <string name="rv_course_save">이 코스 내 코스로 저장</string>
+    <string name="rv_course_saved">내 코스에 있어요</string>
+    <string name="rv_course_saved_toast">내 코스에 저장했어요</string>
+    <string name="rv_share">가족에게 요약 보내기</string>
+    <string name="rv_share_sent">보냈어요 · %1$s</string>
+    <string name="rv_share_queued">연결되면 보내요</string>
+
+    <!-- 하단 -->
+    <string name="rv_pass">%1$d단계 통과 확인</string>
+    <string name="rv_again">다시 연습하기</string>
+
+</resources>

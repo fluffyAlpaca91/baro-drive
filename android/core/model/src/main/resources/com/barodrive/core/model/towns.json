@@ -1,0 +1,12 @@
+[
+  {
+    "id": "home",
+    "name": "우리 동네",
+    "hasCourses": true
+  },
+  {
+    "id": "moved",
+    "name": "이사 간 동네",
+    "hasCourses": false
+  }
+]

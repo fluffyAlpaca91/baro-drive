@@ -1,0 +1,10 @@
+<!-- 프로토타입 index.html 심볼 'i-blink-l' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M4,24 L21,8.5 v9 h22.5 v13 H21 v9 z"
+        android:fillColor="#FF000000" />
+</vector>

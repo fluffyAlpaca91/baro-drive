@@ -1,0 +1,1049 @@
+{
+ "mode": 2,
+ "stage": 2,
+ "noInMode": 1,
+ "courseId": "c2-B",
+ "placeId": null,
+ "presetId": null,
+ "startedAt": "2026-11-10T09:12:00+09:00",
+ "simSec": 480.8,
+ "driveSec": 475.5,
+ "distanceM": 2952,
+ "arrived": true,
+ "weather": {
+  "type": "clear",
+  "severe": "ice",
+  "cold": false,
+  "by": "severe",
+  "at": 0,
+  "tipCards": 5
+ },
+ "caps": {
+  "speed": true,
+  "gear": true,
+  "blinker": true,
+  "steer": true,
+  "nav": true,
+  "passenger": true,
+  "beltDriver": true,
+  "handbrake": true,
+  "wiper": true,
+  "outsideTemp": true,
+  "reverseSpeed": true,
+  "trip": true
+ },
+ "items": {
+  "J3": "O",
+  "A1": "O",
+  "PB1": "O",
+  "L1": "O",
+  "B1": "O",
+  "C1": "O",
+  "C2": "O",
+  "C4": "O",
+  "C5": "O",
+  "F1": "O",
+  "F2": "O",
+  "E1": "O",
+  "E2": "O",
+  "C3": "O",
+  "C6": "O",
+  "J1": "O",
+  "G1": "S",
+  "PK1": "X",
+  "PK2": "X",
+  "PK3": "X",
+  "PB2": "O",
+  "HL1": "X",
+  "HL2": "X",
+  "HL3": "X"
+ },
+ "events": [
+  {
+   "t": 0,
+   "item": "A1",
+   "result": "fail",
+   "data": {
+    "gear": "D"
+   }
+  },
+  {
+   "t": 11.1,
+   "item": "B1",
+   "result": "ok",
+   "data": {
+    "maxGain1s": 4.7,
+    "threshold": 8,
+    "gear": "D"
+   }
+  },
+  {
+   "t": 12.2,
+   "item": "E1",
+   "result": "fail",
+   "data": {
+    "zoneId": "z1",
+    "limit": 30,
+    "effLimit": 15,
+    "school": false,
+    "peak": 28,
+    "overSec": 3.1
+   }
+  },
+  {
+   "t": 32,
+   "item": "C1",
+   "result": "info",
+   "data": {
+    "turnId": "t1",
+    "distance": 70,
+    "dir": "R"
+   }
+  },
+  {
+   "t": 35.1,
+   "item": "C2",
+   "result": "ok",
+   "data": {
+    "turnId": "t1",
+    "distance": 50,
+    "type": "TURN_RIGHT",
+    "ic": false,
+    "dir": "R"
+   }
+  },
+  {
+   "t": 43,
+   "item": "F1",
+   "result": "ok",
+   "data": {
+    "v0": 28,
+    "v1": 15,
+    "dur": 2.6,
+    "maxDrop1s": 5.4,
+    "stopped": false,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 47.9,
+   "item": "C4",
+   "result": "ok",
+   "data": {
+    "turnId": "t1",
+    "dir": "R",
+    "interval": 8.1,
+    "blinkOnT": 35.1,
+    "steerStartT": 43.2
+   }
+  },
+  {
+   "t": 47.9,
+   "item": "C5",
+   "result": "ok",
+   "data": {
+    "turnId": "t1",
+    "dir": "R",
+    "before": true
+   }
+  },
+  {
+   "t": 79.3,
+   "item": "F1",
+   "result": "fail",
+   "data": {
+    "v0": 28,
+    "v1": 0,
+    "dur": 2.8,
+    "maxDrop1s": 10,
+    "stopped": true,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 79.3,
+   "item": "J3",
+   "result": "info",
+   "data": {
+    "kind": "tip",
+    "tip": "j3.tip.snow.1",
+    "set": "snow"
+   }
+  },
+  {
+   "t": 97.5,
+   "item": "B1",
+   "result": "ok",
+   "data": {
+    "maxGain1s": 4.7,
+    "threshold": 8,
+    "gear": "D"
+   }
+  },
+  {
+   "t": 110.7,
+   "item": "C1",
+   "result": "info",
+   "data": {
+    "turnId": "t2",
+    "distance": 70,
+    "dir": "L"
+   }
+  },
+  {
+   "t": 115.1,
+   "item": "C2",
+   "result": "ok",
+   "data": {
+    "turnId": "t2",
+    "distance": 40,
+    "type": "TURN_LEFT",
+    "ic": false,
+    "dir": "L"
+   }
+  },
+  {
+   "t": 121.7,
+   "item": "F1",
+   "result": "ok",
+   "data": {
+    "v0": 28,
+    "v1": 15,
+    "dur": 2.6,
+    "maxDrop1s": 5.4,
+    "stopped": false,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 127.2,
+   "item": "C4",
+   "result": "fail",
+   "data": {
+    "turnId": "t2",
+    "dir": "L",
+    "interval": 1,
+    "blinkOnT": 115.1,
+    "steerStartT": 116.1
+   }
+  },
+  {
+   "t": 127.2,
+   "item": "C5",
+   "result": "ok",
+   "data": {
+    "turnId": "t2",
+    "dir": "L",
+    "before": true
+   }
+  },
+  {
+   "t": 152.4,
+   "item": "F1",
+   "result": "ok",
+   "data": {
+    "v0": 28,
+    "v1": 0,
+    "dur": 5.6,
+    "maxDrop1s": 5,
+    "stopped": true,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 152.4,
+   "item": "J3",
+   "result": "info",
+   "data": {
+    "kind": "tip",
+    "tip": "j3.tip.snow.2",
+    "set": "snow"
+   }
+  },
+  {
+   "t": 166.6,
+   "item": "B1",
+   "result": "ok",
+   "data": {
+    "maxGain1s": 4.7,
+    "threshold": 8,
+    "gear": "D"
+   }
+  },
+  {
+   "t": 189,
+   "item": "C1",
+   "result": "info",
+   "data": {
+    "turnId": "t3",
+    "distance": 70,
+    "dir": "R"
+   }
+  },
+  {
+   "t": 200,
+   "item": "F1",
+   "result": "ok",
+   "data": {
+    "v0": 28,
+    "v1": 15,
+    "dur": 2.6,
+    "maxDrop1s": 5.4,
+    "stopped": false,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 204.8,
+   "item": "C2",
+   "result": "almost",
+   "data": {
+    "turnId": "t3",
+    "distance": 30,
+    "type": "TURN_RIGHT",
+    "ic": false,
+    "dir": "R"
+   }
+  },
+  {
+   "t": 204.8,
+   "item": "C4",
+   "result": "ok",
+   "data": {
+    "turnId": "t3",
+    "dir": "R",
+    "interval": 5.5,
+    "blinkOnT": 194.7,
+    "steerStartT": 200.2
+   }
+  },
+  {
+   "t": 204.8,
+   "item": "C5",
+   "result": "ok",
+   "data": {
+    "turnId": "t3",
+    "dir": "R",
+    "before": true
+   }
+  },
+  {
+   "t": 213.2,
+   "item": "E2",
+   "result": "fail",
+   "data": {
+    "zoneId": "z2",
+    "limit": 30,
+    "effLimit": 15,
+    "speed": 28
+   }
+  },
+  {
+   "t": 216.3,
+   "item": "E1",
+   "result": "fail",
+   "data": {
+    "zoneId": "z2",
+    "limit": 30,
+    "effLimit": 15,
+    "school": true,
+    "peak": 28,
+    "overSec": 3.1
+   }
+  },
+  {
+   "t": 237.5,
+   "item": "F1",
+   "result": "ok",
+   "data": {
+    "v0": 28,
+    "v1": 0,
+    "dur": 5.6,
+    "maxDrop1s": 5,
+    "stopped": true,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 237.5,
+   "item": "J3",
+   "result": "info",
+   "data": {
+    "kind": "tip",
+    "tip": "j3.tip.snow.3",
+    "set": "snow"
+   }
+  },
+  {
+   "t": 249.7,
+   "item": "B1",
+   "result": "ok",
+   "data": {
+    "maxGain1s": 4.7,
+    "threshold": 8,
+    "gear": "D"
+   }
+  },
+  {
+   "t": 263.6,
+   "item": "E1",
+   "result": "fail",
+   "data": {
+    "zoneId": "z3",
+    "limit": 30,
+    "effLimit": 15,
+    "school": false,
+    "peak": 28,
+    "overSec": 3.1
+   }
+  },
+  {
+   "t": 265.6,
+   "item": "C1",
+   "result": "info",
+   "data": {
+    "turnId": "t4",
+    "distance": 70,
+    "dir": "L"
+   }
+  },
+  {
+   "t": 269.4,
+   "item": "C2",
+   "result": "ok",
+   "data": {
+    "turnId": "t4",
+    "distance": 50,
+    "type": "TURN_LEFT",
+    "ic": false,
+    "dir": "L"
+   }
+  },
+  {
+   "t": 276.6,
+   "item": "F1",
+   "result": "ok",
+   "data": {
+    "v0": 28,
+    "v1": 15,
+    "dur": 2.6,
+    "maxDrop1s": 5.4,
+    "stopped": false,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 282.1,
+   "item": "C4",
+   "result": "ok",
+   "data": {
+    "turnId": "t4",
+    "dir": "L",
+    "interval": 7.6,
+    "blinkOnT": 269.4,
+    "steerStartT": 277
+   }
+  },
+  {
+   "t": 282.1,
+   "item": "C5",
+   "result": "ok",
+   "data": {
+    "turnId": "t4",
+    "dir": "L",
+    "before": true
+   }
+  },
+  {
+   "t": 305.1,
+   "item": "J3",
+   "result": "info",
+   "data": {
+    "kind": "tip",
+    "tip": "j3.tip.snow.4",
+    "set": "snow"
+   }
+  },
+  {
+   "t": 313.2,
+   "item": "B1",
+   "result": "excluded",
+   "data": {
+    "maxGain1s": 4.7,
+    "threshold": 8,
+    "gear": "D",
+    "reason": "F2"
+   }
+  },
+  {
+   "t": 334.2,
+   "item": "C1",
+   "result": "excluded",
+   "data": {
+    "turnId": "t5",
+    "distance": 70,
+    "dir": "L",
+    "was": "info",
+    "excluded": "reroute"
+   }
+  },
+  {
+   "t": 349.6,
+   "item": "C1",
+   "result": "info",
+   "data": {
+    "turnId": "t5r",
+    "distance": 70,
+    "dir": "L"
+   }
+  },
+  {
+   "t": 353.4,
+   "item": "C2",
+   "result": "ok",
+   "data": {
+    "turnId": "t5r",
+    "distance": 50,
+    "type": "TURN_LEFT",
+    "ic": false,
+    "dir": "L"
+   }
+  },
+  {
+   "t": 360.6,
+   "item": "F1",
+   "result": "ok",
+   "data": {
+    "v0": 28,
+    "v1": 15,
+    "dur": 2.6,
+    "maxDrop1s": 5.4,
+    "stopped": false,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 366.2,
+   "item": "C4",
+   "result": "ok",
+   "data": {
+    "turnId": "t5r",
+    "dir": "L",
+    "interval": 7.7,
+    "blinkOnT": 353.4,
+    "steerStartT": 361.1
+   }
+  },
+  {
+   "t": 366.2,
+   "item": "C5",
+   "result": "ok",
+   "data": {
+    "turnId": "t5r",
+    "dir": "L",
+    "before": true
+   }
+  },
+  {
+   "t": 395.2,
+   "item": "F1",
+   "result": "ok",
+   "data": {
+    "v0": 28,
+    "v1": 0,
+    "dur": 5.6,
+    "maxDrop1s": 5,
+    "stopped": true,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 395.2,
+   "item": "J3",
+   "result": "info",
+   "data": {
+    "kind": "tip",
+    "tip": "j3.tip.snow.5",
+    "set": "snow"
+   }
+  },
+  {
+   "t": 407.3,
+   "item": "B1",
+   "result": "ok",
+   "data": {
+    "maxGain1s": 4.7,
+    "threshold": 8,
+    "gear": "D"
+   }
+  },
+  {
+   "t": 415.4,
+   "item": "C1",
+   "result": "info",
+   "data": {
+    "turnId": "t6",
+    "distance": 70,
+    "dir": "R"
+   }
+  },
+  {
+   "t": 418.5,
+   "item": "C2",
+   "result": "ok",
+   "data": {
+    "turnId": "t6",
+    "distance": 50,
+    "type": "TURN_RIGHT",
+    "ic": false,
+    "dir": "R"
+   }
+  },
+  {
+   "t": 426.4,
+   "item": "F1",
+   "result": "ok",
+   "data": {
+    "v0": 28,
+    "v1": 15,
+    "dur": 2.6,
+    "maxDrop1s": 5.4,
+    "stopped": false,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 431.3,
+   "item": "C4",
+   "result": "ok",
+   "data": {
+    "turnId": "t6",
+    "dir": "R",
+    "interval": 8.2,
+    "blinkOnT": 418.5,
+    "steerStartT": 426.7
+   }
+  },
+  {
+   "t": 431.3,
+   "item": "C5",
+   "result": "ok",
+   "data": {
+    "turnId": "t6",
+    "dir": "R",
+    "before": true
+   }
+  },
+  {
+   "t": 475.7,
+   "item": "F1",
+   "result": "ok",
+   "data": {
+    "v0": 28,
+    "v1": 0,
+    "dur": 5.1,
+    "maxDrop1s": 5.4,
+    "stopped": true,
+    "threshold": 6
+   }
+  },
+  {
+   "t": 478.5,
+   "item": "PB2",
+   "result": "fail",
+   "data": {
+    "dur": 3
+   }
+  },
+  {
+   "t": 480.8,
+   "item": "G1",
+   "result": "info",
+   "data": {
+    "value": 0.94,
+    "windows": 30,
+    "base": 0.8,
+    "baseFirst": false,
+    "better": -0.17,
+    "insufficient": false
+   }
+  }
+ ],
+ "utterances": [
+  {
+   "t": 0,
+   "item": "A1",
+   "key": "a1",
+   "category": "info",
+   "text": "어머, 벨트! 벨트부터 매자.",
+   "spoken": true,
+   "reason": null
+  },
+  {
+   "t": 12.2,
+   "item": "E1",
+   "key": "e1.wx",
+   "category": "safety",
+   "text": "어머 빨라! 오늘 같은 날은 15까지야!",
+   "spoken": true,
+   "reason": null
+  },
+  {
+   "t": 35.1,
+   "item": "C1",
+   "key": "c1",
+   "category": "pre",
+   "text": "오른쪽 깜빡이 미리 켜자, 응?",
+   "spoken": false,
+   "reason": "gap"
+  },
+  {
+   "t": 35.9,
+   "item": "C2",
+   "key": "c2.ok",
+   "category": "praise",
+   "text": "어머 잘했다 우리 딸! 50미터 전이야!",
+   "spoken": true,
+   "reason": null
+  },
+  {
+   "t": 79.3,
+   "item": "F1",
+   "key": "f1.fix",
+   "category": "fix",
+   "text": "아이고 깜짝이야! 천천히, 천천히!",
+   "spoken": true,
+   "reason": null
+  },
+  {
+   "t": 110.7,
+   "item": "C1",
+   "key": "c1",
+   "category": "pre",
+   "text": "왼쪽 깜빡이 미리 켜자, 응?",
+   "spoken": true,
+   "reason": null
+  },
+  {
+   "t": 115.1,
+   "item": "C2",
+   "key": "c2.ok",
+   "category": "praise",
+   "text": "어머 잘했다 우리 딸! 딱 좋았어!",
+   "spoken": true,
+   "reason": null
+  },
+  {
+   "t": 160.4,
+   "item": "F1",
+   "key": "f1.ok",
+   "category": "praise",
+   "text": "어머 부드럽게 섰다! 최고!",
+   "spoken": false,
+   "reason": "cap"
+  },
+  {
+   "t": 161.6,
+   "item": "C4",
+   "key": "c4.fix",
+   "category": "fix",
+   "text": "깜빡이 켜자마자 꺾었어! 하나, 둘, 셋 하고 꺾자!",
+   "spoken": false,
+   "reason": "cap"
+  },
+  {
+   "t": 192.8,
+   "item": "C1",
+   "key": "c1",
+   "category": "pre",
+   "text": "오른쪽 깜빡이 미리 켜자, 응?",
+   "spoken": false,
+   "reason": "under50"
+  },
+  {
+   "t": 216.6,
+   "item": "E2",
+   "key": "e2",
+   "category": "safety",
+   "text": "어머, 어린이보호구역! 15 아래로!",
+   "spoken": true,
+   "reason": null
+  },
+  {
+   "t": 219.8,
+   "item": "C2",
+   "key": "c2.almost",
+   "category": "fix",
+   "text": "조금만 더 일찍! 다음엔 40미터 전에, 응?",
+   "spoken": false,
+   "reason": "gap"
+  },
+  {
+   "t": 263.9,
+   "item": "E1",
+   "key": "e1.wx",
+   "category": "safety",
+   "text": "어머 빨라! 오늘 같은 날은 15까지야!",
+   "spoken": true,
+   "reason": null
+  },
+  {
+   "t": 269.4,
+   "item": "C1",
+   "key": "c1",
+   "category": "pre",
+   "text": "왼쪽 깜빡이 미리 켜자, 응?",
+   "spoken": false,
+   "reason": "gap"
+  },
+  {
+   "t": 277.4,
+   "item": "C2",
+   "key": "c2.ok",
+   "category": "praise",
+   "text": "어머 잘했다 우리 딸! 50미터 전이야!",
+   "spoken": false,
+   "reason": "navVoice"
+  },
+  {
+   "t": 308.2,
+   "item": "C2",
+   "key": "c2.ok",
+   "category": "praise",
+   "text": "어머 잘했다 우리 딸! 50미터 전이야!",
+   "spoken": false,
+   "reason": "silence"
+  },
+  {
+   "t": 338.1,
+   "item": "C1",
+   "key": "c1",
+   "category": "pre",
+   "text": "왼쪽 깜빡이 미리 켜자, 응?",
+   "spoken": false,
+   "reason": "under50"
+  },
+  {
+   "t": 353.4,
+   "item": "C1",
+   "key": "c1",
+   "category": "pre",
+   "text": "왼쪽 깜빡이 미리 켜자, 응?",
+   "spoken": false,
+   "reason": "cap"
+  },
+  {
+   "t": 361.4,
+   "item": "C2",
+   "key": "c2.ok",
+   "category": "praise",
+   "text": "어머 잘했다 우리 딸! 딱 좋았어!",
+   "spoken": false,
+   "reason": "cap"
+  },
+  {
+   "t": 402.3,
+   "item": "C2",
+   "key": "c2.ok",
+   "category": "praise",
+   "text": "어머 잘했다 우리 딸! 딱 좋았어!",
+   "spoken": false,
+   "reason": "cap"
+  },
+  {
+   "t": 418.5,
+   "item": "C1",
+   "key": "c1",
+   "category": "pre",
+   "text": "오른쪽 깜빡이 미리 켜자, 응?",
+   "spoken": false,
+   "reason": "cap"
+  },
+  {
+   "t": 426.5,
+   "item": "C2",
+   "key": "c2.ok",
+   "category": "praise",
+   "text": "어머 잘했다 우리 딸! 50미터 전이야!",
+   "spoken": false,
+   "reason": "navVoice"
+  },
+  {
+   "t": 478.5,
+   "item": "PB2",
+   "key": "pb2",
+   "category": "info",
+   "text": "사이드브레이크 채우자!",
+   "spoken": true,
+   "reason": null
+  }
+ ],
+ "tasks": [
+  {
+   "id": "T-30",
+   "label": "시속 30 넘지 않기",
+   "short": "30 구역",
+   "success": 0,
+   "total": 3
+  },
+  {
+   "id": "T-SIGNAL30",
+   "label": "꺾기 30m 전에 깜빡이 켜기",
+   "short": "깜빡이",
+   "success": 5,
+   "total": 6
+  },
+  {
+   "id": "T-WAIT3",
+   "label": "깜빡이 켜자마자 꺾지 않기",
+   "short": "깜빡이 켜고 셋 세기",
+   "success": 5,
+   "total": 6
+  },
+  {
+   "id": "T-STOP",
+   "label": "멈출 때 부드럽게 멈추기",
+   "short": "멈출 때 브레이크",
+   "success": 10,
+   "total": 11
+  }
+ ],
+ "achievement": 0.769,
+ "qualified": false,
+ "fewEvents": false,
+ "nextTask": {
+  "id": "T-SCHOOL",
+  "label": "어린이보호구역 15 지키기",
+  "short": "어린이보호구역",
+  "reason": "safety"
+ },
+ "metrics": {
+  "c2Avg": 45,
+  "stopFailRate": 0.091,
+  "g1": 0.94,
+  "c2N": 6,
+  "stopTotal": 11,
+  "stopFail": 1,
+  "g1Windows": 30,
+  "g1Better": -0.17,
+  "per10min": 10.1,
+  "praise": 2,
+  "correction": 1,
+  "spoken": 8,
+  "k4": {
+   "first": true,
+   "rows": []
+  }
+ },
+ "f2": [
+  {
+   "id": "f2-1",
+   "choice": null,
+   "t": 302.7,
+   "v0": 28,
+   "v1": 0,
+   "dur": 1.4,
+   "maxDrop1s": 20,
+   "stopped": true
+  }
+ ],
+ "score": null,
+ "hill": null,
+ "parking": null,
+ "license": null,
+ "tips": [
+  {
+   "text": "아주 나쁜 날 회차예요. 제한속도 기준을 50% 낮춰서 봤어요.",
+   "icon": "i-hazard"
+  }
+ ],
+ "fadedNow": [],
+ "share": {
+  "status": "none"
+ },
+ "good": [
+  {
+   "id": "T-STOP",
+   "text": "멈출 때 부드럽게 멈추기 10/11번"
+  },
+  {
+   "id": "T-SIGNAL30",
+   "text": "꺾기 30m 전에 깜빡이 켜기 5/6번"
+  },
+  {
+   "id": "T-WAIT3",
+   "text": "깜빡이 켜자마자 꺾지 않기 5/6번"
+  }
+ ],
+ "bad": [
+  {
+   "id": "E1-30",
+   "text": "30 구역 초과 2번"
+  },
+  {
+   "id": "school",
+   "text": "어린이보호구역 초과 1번"
+  },
+  {
+   "id": "A1",
+   "text": "벨트 안 매고 출발 1번"
+  }
+ ],
+ "itemStats": {
+  "A1": {
+   "ok": 0,
+   "total": 1
+  },
+  "B1": {
+   "ok": 5,
+   "total": 5
+  },
+  "E1": {
+   "ok": 0,
+   "total": 3
+  },
+  "C2": {
+   "ok": 5,
+   "total": 6
+  },
+  "F1": {
+   "ok": 10,
+   "total": 11
+  },
+  "C4": {
+   "ok": 5,
+   "total": 6
+  },
+  "C5": {
+   "ok": 6,
+   "total": 6
+  },
+  "E2": {
+   "ok": 0,
+   "total": 1
+  },
+  "PB2": {
+   "ok": 0,
+   "total": 1
+  }
+ },
+ "fadedNote": null,
+ "progress": {
+  "applied": true,
+  "mode": 2,
+  "stage": 2,
+  "qualified": false,
+  "qualifiedBefore": 0,
+  "qualifiedAfter": 0,
+  "need": 2,
+  "alreadyPassed": false,
+  "pastStage": false,
+  "passed": false,
+  "graduated": false,
+  "nextStage": null,
+  "passedAt": null,
+  "fadedNow": [],
+  "restoredNow": []
+ },
+ "id": "sess-20261110-0912"
+}

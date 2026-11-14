@@ -1,0 +1,71 @@
+{
+  "about": "모드별 과제 순서(프로토타입 copy.js modes[m].tasks, 설계 6.4 아래 표)와 CR-1 코스 종류 줄·안내 줄(copy.js courseKinds, 목업 s11).",
+  "modes": {
+    "1": {
+      "tasks": [
+        "T-START",
+        "T-STOP",
+        "T-SIGNAL1"
+      ],
+      "courseKind": "가까운 넓은 주차장 · 편안한 길",
+      "courseNote": "사유지 주차장은 관리자 허락을 받아 주세요."
+    },
+    "2": {
+      "tasks": [
+        "T-30",
+        "T-SIGNAL30",
+        "T-WAIT3",
+        "T-STOP"
+      ],
+      "courseKind": "집 근처 골목 3km 안팎 · 편안한 길",
+      "courseNote": "연습한 길은 별을 눌러 내 코스로 남겨요."
+    },
+    "3": {
+      "tasks": [
+        "T-LIMIT",
+        "T-SIGNALPRE",
+        "T-STOPSIG"
+      ],
+      "courseKind": "왕복 4차로 시내 도로 5~8km · 추천",
+      "courseNote": "퇴근 시간에는 더 막힐 수 있어요."
+    },
+    "4": {
+      "tasks": [
+        "T-IC",
+        "T-LIMIT",
+        "T-NOBRAKE"
+      ],
+      "courseKind": "가까운 IC에서 다음 IC까지 · 고속도로 우선",
+      "courseNote": "차가 적은 시간에 한 구간만 달려요."
+    },
+    "5": {
+      "tasks": [],
+      "courseKind": "원하는 목적지 · 코스 추천 없음",
+      "courseNote": "목적지를 내비에 직접 넣고 출발해요."
+    },
+    "6": {
+      "tasks": [],
+      "courseKind": "실제 주차는 넓은 주차장 · 편안한 길",
+      "courseNote": "세워 두고 하는 연습은 코스가 없어도 돼요."
+    },
+    "7": {
+      "tasks": [
+        "T-HILLUP",
+        "T-HILLDOWN",
+        "T-HILLPARK"
+      ],
+      "courseKind": "근처 경사로 · 차가 적은 오르막·내리막",
+      "courseNote": "처음엔 완만한 곳에서, 뒤에 차가 없을 때 하세요."
+    },
+    "8": {
+      "tasks": [
+        "T-LIMIT",
+        "T-SIGNAL30",
+        "T-WAIT3",
+        "T-STOPSIG"
+      ],
+      "courseKind": "시험장 주변 연습 코스",
+      "courseNote": "실제 시험과 다를 수 있어요 · 확인일 2026-11-08 · 고속도로 없음"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "home",
+    "name": "집",
+    "list": "bookmark",
+    "km": 0,
+    "min": 0,
+    "congestion": 0,
+    "addr": "은행나무길 24",
+    "straightKm": 0,
+    "here": true
+  },
+  {
+    "id": "company",
+    "name": "회사",
+    "list": "bookmark",
+    "km": 4.6,
+    "min": 14,
+    "congestion": 1,
+    "addr": "중앙로 120",
+    "straightKm": 3.3
+  },
+  {
+    "id": "mart",
+    "name": "마트",
+    "list": "bookmark",
+    "km": 12.4,
+    "min": 31,
+    "congestion": 1,
+    "addr": "강변로 대형마트",
+    "straightKm": 8.9
+  },
+  {
+    "id": "daycare",
+    "name": "어린이집",
+    "list": "bookmark",
+    "km": 1.4,
+    "min": 6,
+    "congestion": 0,
+    "addr": "배수지길 언덕 위",
+    "straightKm": 1,
+    "hill": true
+  },
+  {
+    "id": "testcenter",
+    "name": "운전면허시험장",
+    "list": "bookmark",
+    "km": 6,
+    "min": 17,
+    "congestion": 0,
+    "addr": "시험장로 1",
+    "straightKm": 4.3
+  },
+  {
+    "id": "gym",
+    "name": "시민체육관",
+    "list": "recent",
+    "km": 2.6,
+    "min": 7,
+    "congestion": 0,
+    "addr": "체육관길 30",
+    "straightKm": 1.9
+  },
+  {
+    "id": "clinic",
+    "name": "동네 병원",
+    "list": "recent",
+    "km": 2.1,
+    "min": 8,
+    "congestion": 1,
+    "addr": "은행나무길 82",
+    "straightKm": 1.5
+  },
+  {
+    "id": "cafe",
+    "name": "역 앞 카페",
+    "list": "recent",
+    "km": 3.3,
+    "min": 12,
+    "congestion": 2,
+    "addr": "역전로 9",
+    "straightKm": 2.4
+  }
+]

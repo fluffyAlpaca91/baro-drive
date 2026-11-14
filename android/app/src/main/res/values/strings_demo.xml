@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 시연 패널 (시연 빌드만, 설계 9장, 프로토타입 js/shell/panel*.js · screens/share.js '가족 휴대폰 미리보기' · screens/demo.js) -->
+<resources>
+    <string name="demo_handle">시연</string>
+    <string name="demo_handle_desc">시연 패널 열기</string>
+    <string name="demo_title">시연 패널</string>
+    <string name="demo_close">접기</string>
+    <string name="demo_status_empty">바로운전 · 시연 패널</string>
+    <string name="demo_source">자료 출처</string>
+    <string name="demo_voice">소리</string>
+    <string name="demo_voice_turn_on">켜기</string>
+    <string name="demo_voice_turn_off">끄기</string>
+
+    <!-- 지금 화면 -->
+    <string name="demo_sec_now">지금 화면</string>
+    <string name="demo_screens">화면</string>
+    <string name="demo_screens_open">화면 목록</string>
+    <string name="demo_screens_back">조작으로</string>
+    <string name="demo_current_screen">지금 화면 · %1$s %2$s</string>
+    <string name="demo_current_screen_unknown">지금 화면 · —</string>
+
+    <!-- 시나리오 -->
+    <string name="demo_sec_scenario">시나리오</string>
+    <string name="demo_scenario_pick">— 시나리오 고르기 —</string>
+    <string name="demo_skill">운전 실력</string>
+    <string name="demo_play">▶ 재생</string>
+    <string name="demo_replay">▶ 다시 재생</string>
+    <string name="demo_pause">⏸ 일시정지</string>
+    <string name="demo_speed_factor">×%1$d</string>
+    <string name="demo_speed_real">실제</string>
+    <string name="demo_speed_note">실제: 실제 시간 그대로 · ×1~×4: 볼거리 위주로 빨리</string>
+    <string name="demo_next_scene">다음 장면</string>
+    <string name="demo_to_end">끝으로</string>
+    <string name="demo_autoplay">자동 재생(경로가 정해지면 1초 뒤)</string>
+
+    <!-- 차량 -->
+    <string name="demo_sec_car">차량</string>
+    <string name="demo_gear">기어</string>
+    <string name="demo_blinker">깜빡이</string>
+    <string name="demo_blinker_left">◀ 왼쪽</string>
+    <string name="demo_blinker_off">끔</string>
+    <string name="demo_blinker_right">오른쪽 ▶</string>
+    <string name="demo_pedals">페달</string>
+    <string name="demo_brake">브레이크</string>
+    <string name="demo_brake_lock">고정</string>
+    <string name="demo_accel">가속</string>
+    <string name="demo_speed">속도</string>
+    <string name="demo_steer">핸들</string>
+    <string name="demo_steer_center">가운데로</string>
+    <string name="demo_belt">운전석 벨트</string>
+    <string name="demo_passenger">조수석 착석</string>
+    <string name="demo_handbrake">사이드브레이크</string>
+    <string name="demo_wiper">와이퍼</string>
+    <string name="demo_low_beam">전조등(하향등)</string>
+    <string name="demo_hazard">비상등</string>
+    <string name="demo_day_night">주간/야간</string>
+    <string name="demo_day">주간</string>
+    <string name="demo_night">야간</string>
+    <string name="demo_temp">바깥 온도</string>
+    <string name="demo_model">차종</string>
+    <string name="demo_keys_note">키보드: ↑ 가속 · ↓ 브레이크 · ← → 핸들 · PgUp PgDn 기어(P R N D 키도) · Q E 깜빡이 · W 비상등 · C 핸들 가운데</string>
+
+    <!-- 내비 -->
+    <string name="demo_sec_navi">내비</string>
+    <string name="demo_tbt_now">지금 TBT</string>
+    <string name="demo_tbt_put_row">덮어쓰기</string>
+    <string name="demo_tbt_put">넣기</string>
+    <string name="demo_limit">제한속도</string>
+    <string name="demo_limit_auto">자동</string>
+    <string name="demo_school">어린이보호구역</string>
+    <string name="demo_jam">정체</string>
+    <string name="demo_cautions">주의 구간</string>
+    <string name="demo_slippery">미끄러운 길</string>
+    <string name="demo_downhill">내리막</string>
+    <string name="demo_navi_voice">내비 음성</string>
+    <string name="demo_reroute">재탐색</string>
+    <string name="demo_arrive">목적지 도착</string>
+    <string name="demo_end_route">안내 끝내기</string>
+    <string name="demo_pick_dest">목적지 고르기</string>
+    <string name="demo_pick_title">어디로 갈까요?</string>
+    <string name="demo_pick_note">고르면 내비가 그 장소로 안내해요. 연습 준비(PR-1) 중이면 그 장소 시나리오가 1초 뒤 재생돼요.</string>
+    <string name="demo_pick_here">지금 위치</string>
+    <string name="demo_pick_km">%1$skm</string>
+
+    <!-- 코칭 이벤트 넣기 -->
+    <string name="demo_sec_inject">코칭 이벤트 넣기</string>
+    <string name="demo_inject_note">주행 중(재생 중이거나 손 운전 중)에 누르면 차 신호를 몇 초 바꿔 그 판정이 실제로 일어나요. 엔진에 결과를 직접 넣지 않아요.</string>
+
+    <!-- 데모 도구 -->
+    <string name="demo_sec_tools">데모 도구</string>
+    <string name="demo_reset_app">처음 실행으로 되돌리기</string>
+    <string name="demo_reset_app_note">앱 저장(baro.app.v1)을 지우고 첫 실행 화면부터 다시 시작해요. 패널 설정은 그대로예요.</string>
+    <string name="demo_reset_app_go">되돌리기</string>
+    <string name="demo_cancel">취소</string>
+    <string name="demo_presets">미리 만든 상태</string>
+    <string name="demo_apply">적용</string>
+    <string name="demo_preset_desc">%1$s · 앱 저장을 바꾸고 홈으로 가요</string>
+    <string name="demo_network">네트워크</string>
+    <string name="demo_network_on">연결</string>
+    <string name="demo_network_off">끊김</string>
+    <string name="demo_network_note">끊으면 가족에게 보낼 요약이 기다렸다가 연결되면 가요. 상태바 아이콘도 바뀌어요.</string>
+    <string name="demo_network_queued">보낼 예정 요약 %1$d건 · 연결되면(주행 중이면 다음 정차 때) 보내요</string>
+    <string name="demo_town">동네</string>
+    <string name="demo_town_note">이사 간 동네에는 팀 코스가 없어요(그 동네에서 가져온 내 코스만 보여요). 바꾸면 코스 추천을 바로 다시 받아요.</string>
+    <string name="demo_congestion">코스 혼잡도</string>
+    <string name="demo_congestion_reload">혼잡도 다시 받기</string>
+    <string name="demo_congestion_first">혼잡 시드 %1$d · 처음 값(목업 혼잡 그대로)</string>
+    <string name="demo_congestion_more">혼잡 시드 %1$d · 코스마다 혼잡이 바뀌어요</string>
+    <string name="demo_congestion_trip_off">" · 지금은 혼잡도를 못 받아 가까운 순이에요"</string>
+    <string name="demo_profile">프로필</string>
+    <string name="demo_profile_1">운전자 1</string>
+    <string name="demo_profile_2">운전자 2</string>
+    <string name="demo_profile_note">차의 운전자 프로필을 흉내 내요. 기록·진행·설정은 프로필마다 따로예요. 바꾸면 홈으로 가요.</string>
+    <string name="demo_other_app">다른 앱(음악)이 앞에</string>
+    <string name="demo_other_app_note">바로운전 창을 음악 앱으로 덮어요. 뒤에서 신호 구독·코칭·음성 자막은 계속돼요. 끄면 지금 화면이 그대로 다시 보여요.</string>
+    <string name="demo_my_courses">내 코스</string>
+    <string name="demo_example_courses">예시 내 코스 넣기</string>
+    <string name="demo_example_courses_note">1단계 C 코스(강변 둔치 주차장)·2단계 A 코스(우리 동네 한 바퀴)를 지금 프로필의 내 코스로 넣어요.</string>
+    <string name="demo_rules">규칙 확인(S9-R) 준비하고 재생</string>
+    <string name="demo_rules_note">말 후보가 몰리는 1단계 회차예요. 간격·상한·비율·침묵·내비 음성·50m 안 때문에 막힌 말을 \'말한 내용\'에서 봐요.</string>
+    <string name="demo_reset_panel">패널 설정 초기화</string>
+
+    <!-- 신호 지원 -->
+    <string name="demo_sec_caps">신호 지원</string>
+    <string name="demo_caps_note">끄면 그 신호를 못 읽는 차로 흉내 내요(스냅숏 값 null). 다음 회차부터 반영돼요.</string>
+    <string name="demo_caps_items">"꺼지는 항목 %1$s · "</string>
+    <string name="demo_caps_all">모두 읽기</string>
+
+    <!-- 말한 내용 -->
+    <string name="demo_sec_voice">말한 내용</string>
+    <string name="demo_log_coach">코치</string>
+    <string name="demo_log_navi">내비</string>
+    <string name="demo_log_blocked">막힌 말</string>
+    <string name="demo_log_clear">지우기</string>
+    <string name="demo_log_copy">복사</string>
+    <string name="demo_log_summary">코치 말함 %1$d · 막힘 %2$d · 내비 %3$d</string>
+    <string name="demo_log_shown">" · 보이는 줄 %1$d"</string>
+    <string name="demo_log_empty">아직 말한 내용이 없어요. 코치·내비가 말하면 여기에 시간순으로 쌓여요.</string>
+    <string name="demo_log_filtered_out">필터에 맞는 줄이 없어요.</string>
+    <string name="demo_log_blocked_reason">막힘 · %1$s</string>
+    <string name="demo_log_stationary">정차 중 말</string>
+    <string name="demo_log_ff">빨리 감기</string>
+    <string name="demo_log_navi_chip">내비</string>
+
+    <!-- 가족 휴대폰 미리보기 -->
+    <string name="demo_sec_family">가족 휴대폰 미리보기</string>
+    <string name="demo_family_note">가족이 휴대폰으로 받는 요약이에요(차 화면 밖). 리뷰에서 [가족에게 요약 보내기]를 하면 여기에 와요.</string>
+    <string name="demo_family_head">바로운전 가족 알림</string>
+    <string name="demo_family_count">%1$d건</string>
+    <string name="demo_family_empty">아직 받은 요약이 없어요</string>
+    <string name="demo_family_from">%1$s의 연습 요약</string>
+    <string name="demo_family_from_unknown">연습 요약</string>
+    <string name="demo_family_when">%1$s 연습</string>
+    <string name="demo_family_foot">위치와 경로는 보내지 않아요</string>
+    <string name="demo_family_clear">받은 카드 지우기</string>
+
+    <!-- 보기 -->
+    <string name="demo_sec_view">보기</string>
+    <string name="demo_mockup_hero">목업 원안 보기</string>
+    <string name="demo_mockup_note">주행 화면의 회전 표시를 목업 s04 모양(회전 화살표 타일 + 다음 회전 거리 + 깜빡이 띠)으로 바꿔 봐요. 기본은 깜빡이 중심(결정-92).</string>
+
+    <!-- 다른 앱(음악) 덮개 -->
+    <string name="demo_music">음악</string>
+    <string name="demo_music_now">지금 재생 중</string>
+    <string name="demo_music_title">오늘의 드라이브</string>
+    <string name="demo_music_sub">주행 플레이리스트 · 12곡</string>
+    <string name="demo_music_elapsed">1:24</string>
+    <string name="demo_music_length">3:48</string>
+</resources>

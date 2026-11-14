@@ -1,0 +1,12 @@
+<!-- 프로토타입 index.html 심볼 'i-pencil' (설계 2.4 아이콘·캐릭터). currentColor = 검정(#FF000000). 화면에서는 tint로 색을 입힌다(BaroIcon). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M4,20 l1,-4.5 L16,4.5 l3.5,3.5 l-11,11 z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round" />
+</vector>

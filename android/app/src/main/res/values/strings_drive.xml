@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 주행 (프로토타입 js/app/screens/drive.js, 설계 4.2 DR-0~DR-3). 기어 칩 설명은 strings_ui.xml gear_label_* -->
+<resources>
+    <string name="screen_dr_0">연습 중이 아닌 주행</string>
+    <string name="screen_dr_1">주행 중 한 줄 화면</string>
+    <string name="screen_dr_2">신호 대기 카드</string>
+    <string name="screen_dr_3">여기서 마칠까요?</string>
+
+    <!-- DR-0 -->
+    <string name="drive_not_practicing">연습 중이 아니에요</string>
+    <string name="drive_not_practicing_hint">멈추면 연습을 시작할 수 있어요</string>
+
+    <!-- DR-1·DR-2 소리 끄기 -->
+    <string name="drive_mute_off_desc">코치 소리 끄기</string>
+    <string name="drive_mute_on_desc">코치 소리 켜기</string>
+    <string name="drive_mute_on_toast">코치 소리를 껐어요 · 안전 항목은 계속 말해요</string>
+    <string name="drive_mute_off_toast">코치 소리를 켰어요</string>
+
+    <!-- 히어로 -->
+    <string name="drive_reverse">천천히 후진</string>
+    <string name="drive_blink_left">왼쪽 깜빡이</string>
+    <string name="drive_blink_right">오른쪽 깜빡이</string>
+    <string name="drive_blink_left_on">왼쪽 깜빡이 켜짐</string>
+    <string name="drive_blink_right_on">오른쪽 깜빡이 켜짐</string>
+    <string name="drive_blink_wrong">반대쪽 깜빡이</string>
+    <string name="drive_turn_to">회전까지 %1$dm</string>
+    <!-- 목업 원안 히어로(시연 패널 '보기' [목업 원안 보기], 목업 s04, 결정-92) -->
+    <string name="drive_orig_next">다음 회전</string>
+    <string name="drive_orig_dist">%1$dm</string>
+    <string name="drive_orig_on">깜빡이 켜짐</string>
+    <string name="drive_orig_wrong">반대쪽 깜빡이</string>
+    <string name="drive_orig_off">깜빡이 꺼짐</string>
+    <string name="drive_ic_enter_to">IC 들어가는 길까지 %1$dm</string>
+    <string name="drive_ic_exit_to">IC 나가는 길까지 %1$dm</string>
+
+    <!-- DR-3 여기서 마칠까요? -->
+    <string name="dr3_title">중간 정차</string>
+    <string name="dr3_head">연습을 여기서 마칠까요?</string>
+    <string name="dr3_note">기어를 D로 바꾸면 이어서 기록해요</string>
+    <string name="dr3_continue">이어서 달리기</string>
+    <string name="dr3_end">여기서 마치기</string>
+    <string name="dr3_fail">회차를 마치지 못했어요 · 다시 눌러 주세요</string>
+    <string name="dr3_home">홈으로</string>
+</resources>

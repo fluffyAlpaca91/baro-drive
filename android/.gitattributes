@@ -1,0 +1,6 @@
+# Windows git here runs with core.autocrlf=true, but WSL executes these scripts from the
+# same working tree, so they must stay LF on checkout.
+gradlew   text eol=lf
+*.sh      text eol=lf
+*.bat     text eol=crlf
+*.jar     binary

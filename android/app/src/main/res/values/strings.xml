@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 앱 공통 글 (프로토타입 js/data/copy.js 공용 문구). 화면 글은 기능마다 strings_<기능>.xml, 컴포넌트 글은 strings_ui.xml에 둔다. -->
+<resources>
+    <string name="app_name">바로운전</string>
+
+    <!-- 공통: 차 상태 -->
+    <string name="data_source_sim">시뮬레이터</string>
+    <string name="data_source_car">진짜 차</string>
+    <string name="label_gear">기어</string>
+    <string name="label_speed">속도</string>
+    <string name="label_blinker">깜빡이</string>
+    <string name="value_unknown">—</string>
+    <string name="speed_kmh">%1$d km/h</string>
+    <string name="blinker_off">끔</string>
+    <string name="blinker_left">← 왼쪽</string>
+    <string name="blinker_right">오른쪽 →</string>
+</resources>

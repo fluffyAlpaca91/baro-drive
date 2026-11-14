@@ -1,0 +1,163 @@
+{
+  "about": "과제 정의 (프로토타입 js/data/tasks.js, 설계 6.4). label = PR-1 오늘 과제·RV-1 잘한 것·RV-2 해 볼 것 문구, short = 대사 {task} 자리, unit = 세는 단위, rule = 성공 조건(판정은 리뷰가 함), items = 이어진 항목, labelByMode = 그 모드에서만 다른 문구, nextLabel = 안전 위반 때 다음 과제 문구, safetyOnly = 모드 과제 목록에는 없고 다음 과제 1순위로만 쓰는 과제.",
+  "tasks": [
+    {
+      "id": "T-START",
+      "label": "엑셀 살살 밟아서 출발하기",
+      "short": "출발",
+      "unit": "출발마다",
+      "rule": "B1 성공",
+      "items": [
+        "B1"
+      ]
+    },
+    {
+      "id": "T-STOP",
+      "label": "브레이크 부드럽게 밟아서 멈추기",
+      "short": "멈출 때 브레이크",
+      "unit": "평가 제동 구간마다",
+      "rule": "F1 성공(F2 제외)",
+      "items": [
+        "F1"
+      ],
+      "labelByMode": {
+        "2": "멈출 때 부드럽게 멈추기"
+      }
+    },
+    {
+      "id": "T-SIGNAL1",
+      "label": "핸들 돌리기 전에 깜빡이 켜기",
+      "short": "깜빡이",
+      "unit": "조향 회전마다",
+      "rule": "조향 시작 전에 맞는 쪽 깜빡이가 켜짐",
+      "items": [
+        "C5"
+      ]
+    },
+    {
+      "id": "T-30",
+      "label": "시속 30 넘지 않기",
+      "short": "30 구역",
+      "unit": "제한 30 이하 구역마다",
+      "rule": "E1 없음",
+      "items": [
+        "E1"
+      ],
+      "nextLabel": "30 구역 지키기"
+    },
+    {
+      "id": "T-SIGNAL30",
+      "label": "꺾기 30m 전에 깜빡이 켜기",
+      "short": "깜빡이",
+      "unit": "내비 회전마다",
+      "rule": "C2 성공(40m 이상, 결정-37)",
+      "items": [
+        "C2"
+      ]
+    },
+    {
+      "id": "T-WAIT3",
+      "label": "깜빡이 켜자마자 꺾지 않기",
+      "short": "깜빡이 켜고 셋 세기",
+      "unit": "깜빡이 켠 회전마다",
+      "rule": "C4 성공",
+      "items": [
+        "C4"
+      ]
+    },
+    {
+      "id": "T-LIMIT",
+      "label": "제한속도 지키기",
+      "short": "제한속도",
+      "unit": "구역마다",
+      "rule": "E1 없음",
+      "items": [
+        "E1"
+      ],
+      "nextLabel": "제한속도 지키기"
+    },
+    {
+      "id": "T-SIGNALPRE",
+      "label": "꺾기 전에 미리 깜빡이 켜기",
+      "short": "깜빡이",
+      "unit": "내비 회전마다",
+      "rule": "C2 성공",
+      "items": [
+        "C2"
+      ]
+    },
+    {
+      "id": "T-STOPSIG",
+      "label": "신호 앞에서 부드럽게 멈추기",
+      "short": "멈출 때 브레이크",
+      "unit": "제동 구간마다",
+      "rule": "F1 성공",
+      "items": [
+        "F1"
+      ]
+    },
+    {
+      "id": "T-IC",
+      "label": "들어갈 때·나갈 때 깜빡이 미리 켜기",
+      "short": "깜빡이",
+      "unit": "IC 진입·진출마다",
+      "rule": "C2(110m) 성공",
+      "items": [
+        "C2"
+      ]
+    },
+    {
+      "id": "T-NOBRAKE",
+      "label": "갑자기 브레이크 밟지 않기",
+      "short": "브레이크",
+      "unit": "제동 구간마다",
+      "rule": "F1 성공",
+      "items": [
+        "F1"
+      ]
+    },
+    {
+      "id": "T-HILLUP",
+      "label": "오르막에서 뒤로 밀리지 않고 출발하기",
+      "short": "오르막 출발",
+      "unit": "오르막 출발 시도마다",
+      "rule": "HL2 없음",
+      "items": [
+        "HL2"
+      ]
+    },
+    {
+      "id": "T-HILLDOWN",
+      "label": "내리막에서 브레이크 나눠 밟기",
+      "short": "내리막 브레이크",
+      "unit": "내리막 구간마다",
+      "rule": "2번 이상 나눠 밟고 8초 넘게 계속 밟지 않음",
+      "items": [
+        "HL1"
+      ]
+    },
+    {
+      "id": "T-HILLPARK",
+      "label": "언덕에 세울 때 바퀴 방향 맞추고 사이드브레이크 채우기",
+      "short": "언덕 주차",
+      "unit": "언덕 주차마다",
+      "rule": "HL3 맞음 + 사이드브레이크 채움(못 읽으면 바퀴만)",
+      "items": [
+        "HL3",
+        "PB2"
+      ]
+    },
+    {
+      "id": "T-SCHOOL",
+      "label": "어린이보호구역 30 지키기",
+      "short": "어린이보호구역",
+      "unit": "어린이보호구역마다",
+      "rule": "E2 없음",
+      "items": [
+        "E2"
+      ],
+      "nextLabel": "어린이보호구역 30 지키기",
+      "safetyOnly": true
+    }
+  ]
+}

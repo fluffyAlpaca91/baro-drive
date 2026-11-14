@@ -1,0 +1,877 @@
+[
+ {
+  "t": 0,
+  "say": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 0,
+    "item": "A1",
+    "key": "a1",
+    "category": "info",
+    "text": "출발 전에 벨트부터 매자.",
+    "dur": 2.5,
+    "pairWith": null
+   }
+  ],
+  "blocked": [],
+  "cards": [],
+  "hints": {},
+  "events": [
+   {
+    "t": 0,
+    "item": "A1",
+    "result": "fail",
+    "data": {
+     "gear": "D"
+    }
+   }
+  ],
+  "waiting": false,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 21.7,
+  "say": [],
+  "blocked": [],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": {
+   "id": "t1",
+   "type": "TURN_RIGHT",
+   "dir": "R",
+   "ic": false,
+   "enter": false,
+   "distance": 150,
+   "window": 150,
+   "blinkOnDist": null,
+   "blinkOnT": null,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": null,
+   "blinkOk": false,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 21.8,
+  "say": [],
+  "blocked": [],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": {
+   "id": "t1",
+   "type": "TURN_RIGHT",
+   "dir": "R",
+   "ic": false,
+   "enter": false,
+   "distance": 150,
+   "window": 150,
+   "blinkOnDist": null,
+   "blinkOnT": null,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": null,
+   "blinkOk": false,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 32,
+  "say": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 32,
+    "item": "C1",
+    "key": "c1",
+    "category": "pre",
+    "text": "오른쪽 깜빡이 미리 켜 볼까?",
+    "dur": 2.8,
+    "pairWith": "t1"
+   }
+  ],
+  "blocked": [],
+  "cards": [],
+  "hints": {},
+  "events": [
+   {
+    "t": 32,
+    "item": "C1",
+    "result": "info",
+    "data": {
+     "turnId": "t1",
+     "distance": 70,
+     "dir": "R"
+    }
+   }
+  ],
+  "waiting": false,
+  "turn": {
+   "id": "t1",
+   "type": "TURN_RIGHT",
+   "dir": "R",
+   "ic": false,
+   "enter": false,
+   "distance": 70,
+   "window": 150,
+   "blinkOnDist": null,
+   "blinkOnT": null,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": null,
+   "blinkOk": false,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 35.1,
+  "say": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 35.1,
+    "item": "C2",
+    "key": "c2.ok",
+    "category": "praise",
+    "text": "좋았어, 50미터 전에 켰어.",
+    "dur": 2.8,
+    "pairWith": "t1"
+   }
+  ],
+  "blocked": [],
+  "cards": [],
+  "hints": {},
+  "events": [
+   {
+    "t": 35.1,
+    "item": "C2",
+    "result": "ok",
+    "data": {
+     "turnId": "t1",
+     "distance": 50,
+     "type": "TURN_RIGHT",
+     "ic": false,
+     "dir": "R"
+    }
+   }
+  ],
+  "waiting": false,
+  "turn": {
+   "id": "t1",
+   "type": "TURN_RIGHT",
+   "dir": "R",
+   "ic": false,
+   "enter": false,
+   "distance": 50,
+   "window": 150,
+   "blinkOnDist": 50,
+   "blinkOnT": 35.1,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": "R",
+   "blinkOk": true,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 79.3,
+  "say": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 79.3,
+    "item": "F1",
+    "key": "f1.fix",
+    "category": "fix",
+    "text": "조금만 일찍, 천천히 밟아 볼까?",
+    "dur": 3.1,
+    "pairWith": null
+   }
+  ],
+  "blocked": [],
+  "cards": [
+   {
+    "id": "card-1",
+    "item": "F1",
+    "key": "f1.fix",
+    "icon": "i-brake",
+    "title": "조금 급하게 섰어요",
+    "detail": "28km/h에서 2.8초 만에 정지 · 가장 셀 때 1초에 10km/h",
+    "category": "fix",
+    "text": "조금만 일찍, 천천히 밟아 볼까?",
+    "createdAt": 79.3,
+    "shownAt": 79.3
+   }
+  ],
+  "hints": {},
+  "events": [
+   {
+    "t": 79.3,
+    "item": "F1",
+    "result": "fail",
+    "data": {
+     "v0": 28,
+     "v1": 0,
+     "dur": 2.8,
+     "maxDrop1s": 10,
+     "stopped": true,
+     "threshold": 7.5
+    }
+   }
+  ],
+  "waiting": true,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 79.4,
+  "say": [],
+  "blocked": [],
+  "cards": [
+   {
+    "id": "card-1",
+    "item": "F1",
+    "key": "f1.fix",
+    "icon": "i-brake",
+    "title": "조금 급하게 섰어요",
+    "detail": "28km/h에서 2.8초 만에 정지 · 가장 셀 때 1초에 10km/h",
+    "category": "fix",
+    "text": "조금만 일찍, 천천히 밟아 볼까?",
+    "createdAt": 79.3,
+    "shownAt": 79.3
+   }
+  ],
+  "hints": {},
+  "events": [],
+  "waiting": true,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 79.5,
+  "say": [],
+  "blocked": [],
+  "cards": [
+   {
+    "id": "card-1",
+    "item": "F1",
+    "key": "f1.fix",
+    "icon": "i-brake",
+    "title": "조금 급하게 섰어요",
+    "detail": "28km/h에서 2.8초 만에 정지 · 가장 셀 때 1초에 10km/h",
+    "category": "fix",
+    "text": "조금만 일찍, 천천히 밟아 볼까?",
+    "createdAt": 79.3,
+    "shownAt": 79.3
+   }
+  ],
+  "hints": {},
+  "events": [],
+  "waiting": true,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 110.7,
+  "say": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 110.7,
+    "item": "C1",
+    "key": "c1",
+    "category": "pre",
+    "text": "왼쪽 깜빡이 미리 켜 볼까?",
+    "dur": 2.65,
+    "pairWith": "t2"
+   }
+  ],
+  "blocked": [],
+  "cards": [],
+  "hints": {},
+  "events": [
+   {
+    "t": 110.7,
+    "item": "C1",
+    "result": "info",
+    "data": {
+     "turnId": "t2",
+     "distance": 70,
+     "dir": "L"
+    }
+   }
+  ],
+  "waiting": false,
+  "turn": {
+   "id": "t2",
+   "type": "TURN_LEFT",
+   "dir": "L",
+   "ic": false,
+   "enter": false,
+   "distance": 70,
+   "window": 150,
+   "blinkOnDist": null,
+   "blinkOnT": null,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": null,
+   "blinkOk": false,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 115.1,
+  "say": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 115.1,
+    "item": "C2",
+    "key": "c2.ok",
+    "category": "praise",
+    "text": "좋았어, 타이밍 딱 맞았어.",
+    "dur": 2.65,
+    "pairWith": "t2"
+   }
+  ],
+  "blocked": [],
+  "cards": [],
+  "hints": {},
+  "events": [
+   {
+    "t": 115.1,
+    "item": "C2",
+    "result": "ok",
+    "data": {
+     "turnId": "t2",
+     "distance": 40,
+     "type": "TURN_LEFT",
+     "ic": false,
+     "dir": "L"
+    }
+   }
+  ],
+  "waiting": false,
+  "turn": {
+   "id": "t2",
+   "type": "TURN_LEFT",
+   "dir": "L",
+   "ic": false,
+   "enter": false,
+   "distance": 40,
+   "window": 150,
+   "blinkOnDist": 40,
+   "blinkOnT": 115.1,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": "L",
+   "blinkOk": true,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 160.4,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 160.4,
+    "item": "F1",
+    "key": "f1.ok",
+    "category": "praise",
+    "text": "이번 정지 아주 부드러웠어.",
+    "reason": "cap"
+   }
+  ],
+  "cards": [
+   {
+    "id": "card-3",
+    "item": "C4",
+    "key": "c4.fix",
+    "icon": "i-wheel",
+    "title": "깜빡이 켜고 바로 꺾었어요",
+    "detail": "깜빡이 켜고 1초 만에 핸들을 돌렸어요",
+    "category": "fix",
+    "text": "깜빡이 켜고 하나, 둘, 셋 뒤에 꺾어 보자.",
+    "createdAt": 127.2,
+    "shownAt": 152.4
+   }
+  ],
+  "hints": {},
+  "events": [],
+  "waiting": true,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 161.6,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 161.6,
+    "item": "C4",
+    "key": "c4.fix",
+    "category": "fix",
+    "text": "깜빡이 켜고 하나, 둘, 셋 뒤에 꺾어 보자.",
+    "reason": "cap"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 177,
+  "say": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 177,
+    "item": "E1",
+    "key": "e1",
+    "category": "safety",
+    "text": "여기 30km 구간이야, 조금 줄이자.",
+    "dur": 3.55,
+    "pairWith": null
+   }
+  ],
+  "blocked": [],
+  "cards": [],
+  "hints": {},
+  "events": [
+   {
+    "t": 177,
+    "item": "E1",
+    "result": "fail",
+    "data": {
+     "zoneId": "z1",
+     "limit": 30,
+     "effLimit": 30,
+     "school": false,
+     "peak": 38,
+     "overSec": 3.1
+    }
+   }
+  ],
+  "waiting": false,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 192.8,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 192.8,
+    "item": "C1",
+    "key": "c1",
+    "category": "pre",
+    "text": "오른쪽 깜빡이 미리 켜 볼까?",
+    "reason": "under50"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": {
+   "id": "t3",
+   "type": "TURN_RIGHT",
+   "dir": "R",
+   "ic": false,
+   "enter": false,
+   "distance": 40,
+   "window": 150,
+   "blinkOnDist": null,
+   "blinkOnT": null,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": null,
+   "blinkOk": false,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 219.8,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 219.8,
+    "item": "C2",
+    "key": "c2.almost",
+    "category": "fix",
+    "text": "거의 됐어. 다음엔 40미터쯤 전에 켜 보자.",
+    "reason": "cap"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 269.4,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 269.4,
+    "item": "C1",
+    "key": "c1",
+    "category": "pre",
+    "text": "왼쪽 깜빡이 미리 켜 볼까?",
+    "reason": "cap"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [
+   {
+    "t": 269.4,
+    "item": "C2",
+    "result": "ok",
+    "data": {
+     "turnId": "t4",
+     "distance": 50,
+     "type": "TURN_LEFT",
+     "ic": false,
+     "dir": "L"
+    }
+   }
+  ],
+  "waiting": false,
+  "turn": {
+   "id": "t4",
+   "type": "TURN_LEFT",
+   "dir": "L",
+   "ic": false,
+   "enter": false,
+   "distance": 50,
+   "window": 150,
+   "blinkOnDist": 50,
+   "blinkOnT": 269.4,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": "L",
+   "blinkOk": true,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 277.4,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 277.4,
+    "item": "C2",
+    "key": "c2.ok",
+    "category": "praise",
+    "text": "좋았어, 50미터 전에 켰어.",
+    "reason": "navVoice"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 308.2,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 308.2,
+    "item": "C2",
+    "key": "c2.ok",
+    "category": "praise",
+    "text": "좋았어, 50미터 전에 켰어.",
+    "reason": "silence"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 338.1,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 338.1,
+    "item": "C1",
+    "key": "c1",
+    "category": "pre",
+    "text": "왼쪽 깜빡이 미리 켜 볼까?",
+    "reason": "under50"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": {
+   "id": "t5",
+   "type": "TURN_LEFT",
+   "dir": "L",
+   "ic": false,
+   "enter": false,
+   "distance": 40,
+   "window": 150,
+   "blinkOnDist": null,
+   "blinkOnT": null,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": null,
+   "blinkOk": false,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 353.4,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 353.4,
+    "item": "C1",
+    "key": "c1",
+    "category": "pre",
+    "text": "왼쪽 깜빡이 미리 켜 볼까?",
+    "reason": "cap"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [
+   {
+    "t": 353.4,
+    "item": "C2",
+    "result": "ok",
+    "data": {
+     "turnId": "t5r",
+     "distance": 50,
+     "type": "TURN_LEFT",
+     "ic": false,
+     "dir": "L"
+    }
+   }
+  ],
+  "waiting": false,
+  "turn": {
+   "id": "t5r",
+   "type": "TURN_LEFT",
+   "dir": "L",
+   "ic": false,
+   "enter": false,
+   "distance": 50,
+   "window": 150,
+   "blinkOnDist": 50,
+   "blinkOnT": 353.4,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": "L",
+   "blinkOk": true,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 361.4,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 361.4,
+    "item": "C2",
+    "key": "c2.ok",
+    "category": "praise",
+    "text": "좋았어, 타이밍 딱 맞았어.",
+    "reason": "cap"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 402.3,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 402.3,
+    "item": "C2",
+    "key": "c2.ok",
+    "category": "praise",
+    "text": "좋았어, 타이밍 딱 맞았어.",
+    "reason": "cap"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 418.5,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 418.5,
+    "item": "C1",
+    "key": "c1",
+    "category": "pre",
+    "text": "오른쪽 깜빡이 미리 켜 볼까?",
+    "reason": "cap"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [
+   {
+    "t": 418.5,
+    "item": "C2",
+    "result": "ok",
+    "data": {
+     "turnId": "t6",
+     "distance": 50,
+     "type": "TURN_RIGHT",
+     "ic": false,
+     "dir": "R"
+    }
+   }
+  ],
+  "waiting": false,
+  "turn": {
+   "id": "t6",
+   "type": "TURN_RIGHT",
+   "dir": "R",
+   "ic": false,
+   "enter": false,
+   "distance": 50,
+   "window": 150,
+   "blinkOnDist": 50,
+   "blinkOnT": 418.5,
+   "wrongOnDist": null,
+   "wrongOnT": null,
+   "blinkDir": "R",
+   "blinkOk": true,
+   "blinkWrong": false,
+   "first": false
+  },
+  "muted": false
+ },
+ {
+  "t": 426.5,
+  "say": [],
+  "blocked": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 426.5,
+    "item": "C2",
+    "key": "c2.ok",
+    "category": "praise",
+    "text": "좋았어, 50미터 전에 켰어.",
+    "reason": "navVoice"
+   }
+  ],
+  "cards": [],
+  "hints": {},
+  "events": [],
+  "waiting": false,
+  "turn": null,
+  "muted": false
+ },
+ {
+  "t": 478.5,
+  "say": [
+   {
+    "speaker": "coach",
+    "coach": "dad",
+    "t": 478.5,
+    "item": "PB2",
+    "key": "pb2",
+    "category": "info",
+    "text": "사이드브레이크 채우자.",
+    "dur": 2.2,
+    "pairWith": null
+   }
+  ],
+  "blocked": [],
+  "cards": [],
+  "hints": {},
+  "events": [
+   {
+    "t": 478.5,
+    "item": "PB2",
+    "result": "fail",
+    "data": {
+     "dur": 3
+    }
+   }
+  ],
+  "waiting": false,
+  "turn": null,
+  "muted": false
+ }
+]

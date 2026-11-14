@@ -1,0 +1,7 @@
+{
+  "about": "대사 자리에 들어가는 글자(프로토타입 js/data/copy.js의 dir · weather.wx · honorifics.maxLength · numWord, core.js honorificText의 우리 딸 · 우리 아들). {dir} L·R → dir, {wx} rain·snow·severe → wx, {호칭} 설계 6.6.1, {nWord} 과제 수 고유어 관형형(numWord[3] = 세).",
+  "dir": { "L": "왼쪽", "R": "오른쪽" },
+  "wx": { "rain": "비 오는 날은", "snow": "눈 오는 날은", "severe": "오늘 같은 날은" },
+  "honorific": { "daughter": "우리 딸", "son": "우리 아들", "maxLength": 8 },
+  "numWord": ["영", "한", "두", "세", "네", "다섯", "여섯", "일곱", "여덟", "아홉", "열"]
+}
